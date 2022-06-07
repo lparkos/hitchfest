@@ -8,6 +8,12 @@ import TextBlock from '../components/textblock'
 import Card from 'react-bootstrap/Card'
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
+import 'bootstrap/dist/css/bootstrap.css';
+import '../styles/colors.css'
+import '../styles/fonts.css'
+import '../styles/main.css'
+
+
 
 import moons from '../images/elements/moonburst.svg';
 
