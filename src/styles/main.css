@@ -1,0 +1,91 @@
+@import "./colors.css";
+
+body {
+  background-color: var(--phthalo-green);
+}
+
+.page-nav-image {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+a p {
+  color: var(--yellow);
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.page-nav a {
+  text-decoration: none;
+  padding: 0 0rem;
+  text-decoration-color: var(--phthalo-green);
+}
+
+.page-nav p {
+  padding: 0 0rem;
+}
+
+a:hover {
+  color: var(--platinum);
+  text-decoration: none;
+  transition: ease-in-out 100ms;
+}
+
+.navbar-light .navbar-nav .nav-link p{
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+.navbar {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+
+a.euphorigenic {
+  text-decoration: none;
+  width: 11em;
+  background-position-y: 0.8em;
+}
+
+.moonborder-bg {
+  background-image: url('../images/elements/moon-border-top.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.container-fluid{
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+.main-container {
+  display: flex;
+}
+
+.left-col {
+  position: fixed;
+  height: 100%;
+  width: 50%;
+}
+
+.right-col {
+  margin-left: 50%;
+  width: 50%;
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.border-bottom {
+  border-color: var(--phthalo-green)!important;
+}
+
+.moons {
+  width: 13em;
+}
+
+
+
+
+
+
+

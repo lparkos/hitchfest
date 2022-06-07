@@ -1,0 +1,66 @@
+:root {
+    /* CSS HEX */
+    --eerie-black: #181818ff;
+    --phthalo-green: #05231aff;
+    --deep-jungle-green: #02564A;
+    --platinum: #ebeaeaff;
+    --xanadu: #738277ff;
+    --yellow: #CEB27C;
+    }
+    
+    
+    /* COLORS */
+    .black {
+        color: var(--eerie-black);
+    }
+    
+    .dgreen {
+        color: var(--phthalo-green);
+    }
+    
+    .teal {
+        color: var(--deep-jungle-green);
+    }
+    
+    .white {
+        color: var(--platinum);
+    }
+    
+    .lgreen {
+        color: var(--xanadu);
+    }
+
+    .gold {
+        color: var(--yellow);
+    }
+    
+    /* BACKGROUND COLORS */
+    .bg-black {
+        background-color: var(--eerie-black);
+    }
+    
+    .bg-dgreen {
+        background-color: var(--phthalo-green);
+    }
+    
+    .bg-teal {
+        background-color: var(--deep-jungle-green);
+    }
+    
+    .bg-white {
+        background-color: var(--platinum);
+    }
+    
+    .bg-lgreen {
+        background-color: var(--xanadu);
+    }
+
+    .bg-yellow {
+        background-color: var(--yellow);
+    }
+
+    
+    
+    
+    
+    
