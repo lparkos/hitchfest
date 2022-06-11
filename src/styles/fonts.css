@@ -32,6 +32,15 @@ a.euphorigenic {
   font-family: Euphorigenic, serif;
 }
 
+a.modesto {
+  font-family: Modesto, serif;
+}
+
+.modesto {
+  font-family: Modesto, serif;
+}
+
+
 .form-label, .form-check-label{
   font-family: Modesto, serif;
   color: var(--yellow);

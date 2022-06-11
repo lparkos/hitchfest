@@ -21,12 +21,11 @@ import '../styles/fonts.css'
 import '../styles/main.css'
 
 
-// Step 2: Define your component
-const IndexPage = ({ children }) => {
+const Home = () => {
+
   return (
-    <PageLayout>
-        <canvas id="noise" className="noise"></canvas>
-        <div className="m-2 pt-2 pb-5 vignette">
+    <PageLayout pageTitle="Home Page">
+        <div className="m-2 pt-2 pb-5">
         <div class="container-fluid">
         <div class="row align-items-start">
             <div class="col">
@@ -96,6 +95,4 @@ const IndexPage = ({ children }) => {
     </PageLayout>
   )
 }
-
-// Step 3: Export your component
-export default IndexPage
+export default Home

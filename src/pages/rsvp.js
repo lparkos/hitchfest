@@ -24,7 +24,7 @@ const Rsvp = () => {
         <div className="left-col bg-lgreen px-5"> 
         <div className="page-nav"> 
           <div className="block pt-5">
-              <div className="m1"><p className="display-1 euphorigenic dgreen">RSVP</p></div>
+              <div className="m1"><p className="superbig euphorigenic dgreen">RSVP</p></div>
           </div>
         </div>
         </div>

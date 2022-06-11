@@ -8,12 +8,6 @@ import TextBlock from '../components/textblock'
 import Card from 'react-bootstrap/Card'
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
-import 'bootstrap/dist/css/bootstrap.css';
-import '../styles/colors.css'
-import '../styles/fonts.css'
-import '../styles/main.css'
-
-
 
 import moons from '../images/elements/moonburst.svg';
 
@@ -37,7 +31,7 @@ const Location = () => {
     <PageLayout pageTitle="Home Page">
 
     <div className="main-container">  
-        <div className="left-col bg-lgreen px-5"> 
+        <div className="left-col bg-dgreen px-5 border-end border-light"> 
           <PageNav
             anchor1="Location Information"
             anchor2="Ceremony & Reception"

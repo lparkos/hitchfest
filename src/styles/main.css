@@ -31,12 +31,12 @@ a:hover {
   transition: ease-in-out 100ms;
 }
 
-.navbar-light .navbar-nav .nav-link p{
-  color: var(--yellow);
+.navbar-light .navbar-nav .navbar-text a{
   text-decoration: none;
+  color: var(--platinum);
 }
 
-.navbar {
+.navbar-text {
   padding-top: 0!important;
   padding-bottom: 0!important;
 }
@@ -58,9 +58,10 @@ a.euphorigenic {
   padding-right: 0!important;
 }
 
-.main-container {
-  display: flex;
-}
+/* .main-container {
+  width: 60%;
+  margin: 0 auto;
+} */
 
 .left-col {
   position: fixed;
@@ -83,9 +84,136 @@ a.euphorigenic {
   width: 13em;
 }
 
+.tl-edges {
+  max-width: 100%;
+  overflow-x: visible;
+}
+
+.headliner {
+  padding-top: 0;
+  padding-bottom: 0.1rem;
+}
+
+.superbig {
+  font-size: 7vw;
+  line-height: 12vh;
+}
+
+.fader-top {
+  background: rgb(5,35,26);
+  background: linear-gradient(180deg, rgba(5,35,26,1) 11%, rgba(255,255,255,0) 32%);
+  z-index: 100;
+}
+
+.fader-bottom {
+  background: rgb(5,35,26);
+  background: linear-gradient(0deg, rgba(5,35,26,1) 8%, rgba(255,255,255,0) 59%);  z-index: 100;
+}
+
+.fixed-top-hack{
+    position: fixed;
+    top: 90px;
+    right: 0;
+    bottom: 0;
+}
+
+.headliner-lm {
+  height: 40px;
+  top: 0px;
+}
+
+.main-nav {
+  top: 41px;
+}
+
+.custom-height {
+  height: 800px;
+  top: 13vh;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgb(0 0 0 / 0%);
+  border-color: rgb(0 0 0 / 0%);
+}
+
+.vignette{
+  position:fixed;
+  width:100%; height:100%;
+  box-shadow:inset 0px 0px 150px 20px black;
+  mix-blend-mode: multiply;
+  -webkit-animation: vignette-anim 3s infinite; /* Safari 4+ */
+  -moz-animation:    vignette-anim 3s infinite; /* Fx 5+ */
+  -o-animation:      vignette-anim 3s infinite; /* Opera 12+ */
+  animation:         vignette-anim 3s infinite; /* IE 10+, Fx 29+ */
+}
 
 
+.noise {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: 100%;
+  
+  pointer-events: none;
+  opacity: .65;
+}
+
+@-webkit-keyframes vignette-anim {
+  0%   , 100%{ opacity: 1; }
+  50% { opacity: 0.7; }
+}
+@-moz-keyframes vignette-anim {
+  0%   , 100%{ opacity: 1; }
+  50% { opacity: 0.7; }
+}
+@-o-keyframes vignette-anim {
+  0%   , 100%{ opacity: 1; }
+  50% { opacity: 0.7; }
+}
+@keyframes vignette-anim {
+  0%   , 100%{ opacity: 1; }
+  50% { opacity: 0.7; }
+}
 
 
+@media only screen and (max-width: 505px) {
+  .left-col {
+    display: none;
+    height: auto;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .right-col {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-left: 0%;
+  }
 
+  .headliner-lm {
+    height: 40px;
+    top: 6px;
+    background-color: transparent!important;
+    z-index: 10000;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .main-nav {
+    top: 0px;
+  }
 
+  .custom-height {
+    height: 800px;
+    top: 100px;
+  }
+  
+}

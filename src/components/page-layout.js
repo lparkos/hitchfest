@@ -1,23 +1,32 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import Nav from '../components/nav'
+import MainNav from './nav'
+import ThemeProvider from 'react-bootstrap/ThemeProvider'
+import { TransitionProvider, TransitionViews } from "gatsby-plugin-transitions";
+import { gsap } from "gsap";
 
-const PageLayout = ({ pageTitle, children }) => {
+document.body.addEventListener("mousemove", evt => {
+  const mouseX = evt.clientX;
+  const mouseY = evt.clientY;
+  
+  gsap.set(".cursor", {
+    x: mouseX,
+    y: mouseY
+  })
+  
+  gsap.to(".shape", {
+    x: mouseX,
+    y: mouseY,
+    stagger: -0.1
+  })
+})
+
+const PageLayout = ({ location, children }) => {
   return (
-    <div className="vh-100">
-      {/* <div class="container-fluid block bg-white">
-        <div class="m1"><p class="h3">SPOTIFY STUFF</p></div>
-      </div> */}
-      <main>
-        <Nav></Nav>
-        {children}
-      </main>
-      {/* <div class="container-fluid block">
-        <div class="container-fluid border block bg-white">
-          <div class="m1"><p class="h1">Can't Wait!</p></div>
-        </div>
-      </div> */}
+    <div className="vh-100 mt-5">
+      <MainNav></MainNav>
+      {children}
     </div>
-  )
+)
 }
 export default PageLayout
