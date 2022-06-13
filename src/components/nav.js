@@ -32,7 +32,7 @@ const MainNav = ({ pageTitle, children }) => {
     {isHome ? ''
     : 
     <Navbar fixed="top" expand="lg" className="justify-content-center bg-lgreen headliner headliner-lm">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/home">
         <img
         src={logo}
         width="150"/> 

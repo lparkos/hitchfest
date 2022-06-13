@@ -5,21 +5,6 @@ import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import { TransitionProvider, TransitionViews } from "gatsby-plugin-transitions";
 import { gsap } from "gsap";
 
-document.body.addEventListener("mousemove", evt => {
-  const mouseX = evt.clientX;
-  const mouseY = evt.clientY;
-  
-  gsap.set(".cursor", {
-    x: mouseX,
-    y: mouseY
-  })
-  
-  gsap.to(".shape", {
-    x: mouseX,
-    y: mouseY,
-    stagger: -0.1
-  })
-})
 
 const PageLayout = ({ location, children }) => {
   return (
