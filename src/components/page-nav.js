@@ -6,27 +6,39 @@ import { motion } from "framer-motion";
 const PageNav = ({ anchor1, anchor2, anchor3, anchor4, anchor5, anchor6, anchor7, bgColor, image, children }) => {
 
   return (
-    <div className="page-nav"> 
+    <div className="page-nav mt-5"> 
         <div className="block pt-5">
-            <div className="m1"><p className="superbig euphorigenic lgreen">{anchor1}</p></div>
+            <div className="m1"><p className="superbig euphorigenic dgreen">{anchor1}</p></div>
+        </div>
+        <div className="block mt-5">
+        {anchor2 ? 
+            <div className="border-bottom"><a href="#link2"><p className="fs-5 modesto dgreen">{anchor2}</p></a></div>
+            : <div><a href="#link2"><p className="fs-5 modesto dgreen">{anchor2}</p></a></div>}
         </div>
         <div className="block">
-            <div><a href="#link2" ><p className="fs-5 modesto white">{anchor2}</p></a></div>
+        {anchor3 ? 
+            <div className="border-bottom"><a href="#link3"><p className="fs-5 modesto dgreen">{anchor3}</p></a></div>
+            : <div><a href="#link4"><p className="fs-5 modesto dgreen">{anchor3}</p></a></div>}
         </div>
         <div className="block">
-            <div><a href="#link3"><p className="fs-5 modesto white">{anchor3}</p></a></div>
+        {anchor4 ? 
+            <div className="border-bottom"><a href="#link4"><p className="fs-5 modesto dgreen">{anchor4}</p></a></div>
+            : <div><a href="#link5"><p className="fs-5 modesto dgreen">{anchor4}</p></a></div>}
         </div>
         <div className="block">
-            <div><a href="#link4"><p className="fs-5 modesto white">{anchor4}</p></a></div>
+        {anchor5 ? 
+            <div className="border-bottom"><a href="#link5"><p className="fs-5 modesto dgreen">{anchor5}</p></a></div>
+            : <div><a href="#link5"><p className="fs-5 modesto dgreen">{anchor5}</p></a></div>}
         </div>
         <div className="block">
-            <div><a href="#link5"><p className="fs-5 modesto white">{anchor5}</p></a></div>
+        {anchor6 ? 
+            <div className="border-bottom"><a href="#link6"><p className="fs-5 modesto dgreen">{anchor6}</p></a></div>
+            : <div><a href="#link6"><p className="fs-5 modesto dgreen">{anchor6}</p></a></div>}
         </div>
         <div className="block">
-            <div><a href="#link6"><p className="fs-5 modesto white">{anchor6}</p></a></div>
-        </div>
-        <div className="block">
-            <div><a href="#link7"><p className="fs-5 modesto white">{anchor7}</p></a></div>
+            {anchor7 ? 
+            <div className="border-bottom"><a href="#link7"><p className="fs-5 modesto dgreen">{anchor7}</p></a></div>
+            : <div><a href="#link7"><p className="fs-5 modesto dgreen">{anchor7}</p></a></div>}
         </div>
     </div>
   )

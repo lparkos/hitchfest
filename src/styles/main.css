@@ -84,6 +84,15 @@ a.euphorigenic {
   width: 13em;
 }
 
+.star {
+  width: 3em;
+}
+
+html {
+  scroll-padding-top: 200px; /* height of sticky header */
+}
+
+
 .tl-edges {
   max-width: 100%;
   overflow-x: visible;
@@ -179,24 +188,30 @@ a.euphorigenic {
 }
 
 
-@media only screen and (max-width: 505px) {
+@media only screen and (max-width: 520px) {
   .left-col {
-    display: none;
-    height: auto;
     width: 100%;
-    position: absolute;
+    position: relative;
+    height: auto;
+    display: block;
   }
   
   .right-col {
-    display: block;
-    height: 100%;
     width: 100%;
+    position: relative;
+    height: auto;
+    display: block;
     margin-left: 0%;
+  }
+
+  .superbig {
+    font-size: 15vw;
+    line-height: 12vh;
   }
 
   .headliner-lm {
     height: 40px;
-    top: 6px;
+    top: 5px;
     background-color: transparent!important;
     z-index: 10000;
     width: 80%;
@@ -204,7 +219,7 @@ a.euphorigenic {
   }
   
   .main-nav {
-    top: 0px;
+    top: -40px;
   }
 
   .custom-height {

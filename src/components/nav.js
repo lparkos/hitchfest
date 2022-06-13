@@ -2,6 +2,8 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import { motion } from "framer-motion";
 import { useEffect } from "react";
+import { useState } from 'react';
+import { useLocation, createMemorySource, createHistory } from "@reach/router"
 
 
 import Navbar from 'react-bootstrap/Navbar'
@@ -21,30 +23,48 @@ import logo from '../images/elements/headliner.svg';
 
 
 
-const MainNav = ({ pageTitle, children, isHome }) => {
+const MainNav = ({ pageTitle, children }) => {
+  const location = useLocation();
+  const [state, setState] = useState({
+    isHome: location.pathname === '/',
+    // other states
+  });
 
+  const detectHome = () => {
+    const homePath = location.pathname === '/' || location.pathname === '/home';
+    if (!homePath) {
+      setState(prevState => ({
+        ...prevState,
+        isHome: false
+      }));
+    }
+    if (homePath) {
+      setState(prevState => ({
+        ...prevState,
+        isHome: true
+      }));
+    }
+  };
 
   useEffect(() => {
-    const location = window.location.pathname;
-    if (location === '/home') {
-      isHome = true;
+    detectHome();
+    return () => {
+      detectHome();
     };
-    console.log(location)
-  }, []);
+  }, [state.isHome]);
 
-
+  console.log(state.isHome);
 
   return (
   <div className="fixed-top">
-    {isHome ? ''
-    : 
-    <Navbar fixed="top" expand="lg" className="justify-content-center bg-lgreen headliner headliner-lm position-relative">
-      <Navbar.Brand href="/home">
-        <img
-        src={logo}
-        width="150"/> 
-      </Navbar.Brand>
-    </Navbar>
+    {state.isHome ? ''
+    : <Navbar fixed="top" expand="lg" className="justify-content-center bg-lgreen headliner headliner-lm position-relative">
+    <Navbar.Brand href="/home">
+      <img
+      src={logo}
+      width="150"/> 
+    </Navbar.Brand>
+  </Navbar>
     }
 
     <Navbar expand="lg" className="text-center white bg-teal main-nav">

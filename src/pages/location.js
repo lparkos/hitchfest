@@ -10,6 +10,8 @@ import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 
 import moons from '../images/elements/moonburst.svg';
+import star from '../images/elements/star.svg'
+
 
 const containerStyle = {
   width: 'auto',
@@ -31,19 +33,19 @@ const Location = () => {
     <PageLayout pageTitle="Home Page">
 
     <div className="main-container">  
-        <div className="left-col bg-dgreen px-5 border-end border-light"> 
+        <div className="left-col bg-lgreen px-5"> 
           <PageNav
             anchor1="Location Information"
             anchor2="Ceremony & Reception"
-            anchor3="Parking"
-            anchor4="Map"
-            anchor5="Airport Information"
-            anchor6="Ground Transport"
-            anchor7="Hotel Blocks"
+            anchor3="Hotel Blocks"
+            anchor4="Airport"
+            anchor5="Ground Transport"
+            anchor6="Parking"
+            anchor7="Ceremony Map"
           ></PageNav>
-      </div>
+        </div>
        
-        <div className="right-col bg-dgreen px-5">
+        <div className="right-col bg-green px-5">
           <div className="container block text-center pt-5 pb-4">
             <img className="moons img-fluid" src={moons}></img>
           </div>
@@ -58,39 +60,22 @@ const Location = () => {
 
           <TextBlock 
             anchor="link3"
-            title="Parking"
-            contents="There is a parking ramp that you can park in that is connected to the building. This has handicap access and wheelchair access and will take you right where you need to go."
+            title="Hotel Blocks"
+            contents="We've blocked off rooms at the Rennasaince Hotel if you choose to book here. Their are many hotels in the city, but this one is the closest! <br></br>219 SE Main St, Minneapolis, MN 55414"
             linktext="Get Directions"
             link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
           ></TextBlock>
-
-          <div className="left p-2 mr1" id="#link4">
-            <LoadScript googleMapsApiKey="AIzaSyAel-VNEYn0o3en1_dk0siQGLftQnBnXdo">
-            <GoogleMap
-              mapContainerStyle={containerStyle}
-              center={position}
-              zoom={12}>
-            <Marker
-                  onLoad={onLoad}
-                  position={position}
-                />
-              { /* Child components, such as markers, info windows, etc. */ }
-              <></>
-            </GoogleMap>
-            </LoadScript>
-          </div>
-
+         
           <TextBlock 
-            anchor="link5"
+            anchor="link4"
             title="Airport Information"
             contents="If you are staying at a hotel nearby, you can tell your driver to drop you off at the front of the court yard, from there you can walk right in the court yard where the ceremony will be held."
             linktext="Get Directions"
             link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
           ></TextBlock>
 
-
           <TextBlock 
-            anchor="link6"
+            anchor="link5"
             title="Transportation"
             contents="Uber/Lyft are available from the airport to many metro area hotels and destinations. Alternatively you could take the Light Rail from the airport. "
             linktext="Get Directions"
@@ -98,13 +83,32 @@ const Location = () => {
           ></TextBlock>
 
           <TextBlock 
-            anchor="link7"
-            title="Hotel Blocks"
-            contents="We've blocked off rooms at the Rennasaince Hotel if you choose to book here. Their are many hotels in the city, but this one is the closest! <br></br>219 SE Main St, Minneapolis, MN 55414"
+            anchor="link6"
+            title="Parking"
+            contents="There is a parking ramp that you can park in that is connected to the building. This has handicap access and wheelchair access and will take you right where you need to go."
             linktext="Get Directions"
             link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
           ></TextBlock>
-         
+
+          <TextBlock 
+            anchor="link7"
+            title="Ceremony Map">
+            <div className="left p-2 mr1 text-center">
+              <LoadScript googleMapsApiKey="AIzaSyAel-VNEYn0o3en1_dk0siQGLftQnBnXdo">
+              <GoogleMap
+                mapContainerStyle={containerStyle}
+                center={position}
+                zoom={12}>
+              <Marker
+                    onLoad={onLoad}
+                    position={position}
+                  />
+                { /* Child components, such as markers, info windows, etc. */ }
+                <></>
+              </GoogleMap>
+              </LoadScript>
+            </div>
+          </TextBlock>
         </div>
     </div>
    

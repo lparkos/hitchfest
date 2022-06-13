@@ -5,6 +5,9 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 import TransitionLink from 'gatsby-plugin-transition-link'
 import { Animate }  from 'react-simple-animate';
 import PageLayout from '../components/page-layout'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import cornerleft from '../images/elements/corner-left.svg'
 import universe from '../images/elements/universe.svg'
@@ -25,74 +28,71 @@ import '../styles/main.css'
 const IndexPage = ({ children }) => {
   return (
     <PageLayout>
-        <canvas id="noise" className="noise"></canvas>
-        <div className="m-2 pt-2 pb-5 vignette">
-        <div class="container-fluid">
-        <div class="row align-items-start">
-            <div class="col">
-            <img className="img-fluid" src={cornerleft}></img>
+        <Container>
+          <div class="row align-items-start">
+              <div class="col">
+              <img className="img-fluid" src={cornerleft}></img>
+              </div>
+              <div class="col text-center">
+              <img className="img-fluid w-25 align-top" src={universe}></img>
+              </div>
+              <div class="col">
+              <img className="img-fluid" src={cornerright}></img>
+              </div>
+          </div>
+          <div class="container-fluid position-absolute top-50 start-50 translate-middle">
+            <div class="row align-items-start">
+                <Animate
+                play={true} // set play true to start the animation
+                duration={.5} // how long is the animation duration
+                delay={0.2} // how many delay seconds will apply before the animation start
+                start={{ opacity: '0', transform: 'translate(0px, 0px) scale(1.4)'}}
+                end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
+                easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
+                >
+                <div class="text-center">
+                <img className="img-fluid w-75 align-top" src={landm}></img>
+                </div>
+                </Animate>
+                <Animate
+                play={true} // set play true to start the animation
+                duration={.3} // how long is the animation duration
+                delay={0.3} // how many delay seconds will apply before the animation start
+                start={{ opacity: '0', transform: 'translate(0px, 0px) scale(1)'}}
+                end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
+                easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
+                >
+                <div class="text-center">
+                <img className="img-fluid w-50 pt-2 align-top" src={cosmicdate}></img>
+                </div>
+                </Animate>
+                <Animate
+                play={true} // set play true to start the animation
+                duration={.5} // how long is the animation duration
+                delay={0.3} // how many delay seconds will apply before the animation start
+                start={{ opacity: '0', transform: 'translate(0px, 0px) scale(1)'}}
+                end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
+                easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
+                >
+                <div class="text-center">
+                <img className="img-fluid w-50 pt-2 align-top" src={mspmn}></img>
+                </div>
+                </Animate>
             </div>
-            <div class="col text-center">
-            <img className="img-fluid w-25 align-top" src={universe}></img>
-            </div>
-            <div class="col">
-            <img className="img-fluid" src={cornerright}></img>
-            </div>
-        </div>
-        </div>
-        <div class="container-fluid position-absolute top-50 start-50 translate-middle">
-        <div class="row align-items-start">
-            <Animate
-            play={true} // set play true to start the animation
-            duration={.5} // how long is the animation duration
-            delay={0.2} // how many delay seconds will apply before the animation start
-            start={{ opacity: '0', transform: 'translate(0px, 0px) scale(1.4)'}}
-            end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
-            easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
-            >
-            <div class="text-center">
-            <img className="img-fluid w-75 align-top" src={landm}></img>
-            </div>
-            </Animate>
-            <Animate
-            play={true} // set play true to start the animation
-            duration={.3} // how long is the animation duration
-            delay={0.3} // how many delay seconds will apply before the animation start
-            start={{ opacity: '0', transform: 'translate(0px, 0px) scale(1)'}}
-            end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
-            easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
-            >
-            <div class="text-center">
-            <img className="img-fluid w-50 pt-2 align-top" src={cosmicdate}></img>
-            </div>
-            </Animate>
-            <Animate
-            play={true} // set play true to start the animation
-            duration={.5} // how long is the animation duration
-            delay={0.3} // how many delay seconds will apply before the animation start
-            start={{ opacity: '0', transform: 'translate(0px, 0px) scale(1)'}}
-            end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
-            easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
-            >
-            <div class="text-center">
-            <img className="img-fluid w-50 pt-2 align-top" src={mspmn}></img>
-            </div>
-            </Animate>
-        </div>
-        </div>
-        <div class="container-fluid fixed-bottom">
-        <div class="row align-items-start">
-            <div class="col">
-            <img className="img-fluid" src={cornerbleft}></img>
-            </div>
-            <div class="col text-center">
-            </div>
-            <div class="col"> 
-            <img className="img-fluid" src={cornerbright}></img>
+          </div>
+          <div class="container-fluid fixed-bottom">
+            <div class="row align-items-start">
+                <div class="col">
+                <img className="img-fluid" src={cornerbleft}></img>
+                </div>
+                <div class="col text-center">
+                </div>
+                <div class="col"> 
+                <img className="img-fluid" src={cornerbright}></img>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
+        </Container>
     </PageLayout>
   )
 }

@@ -24,11 +24,14 @@ const Registry = () => {
     <PageLayout pageTitle="Home Page">
 
     <div className="main-container">  
-      <div className="left-col bg-dgreen px-5 border-end border-light"> 
+       <div className="left-col bg-lgreen px-5"> 
           <PageNav
             anchor1="Registry"
+            anchor2="Honeymoon Fund"
+            anchor3="Zola List"
+            anchor4="Deck Fund"
           ></PageNav>
-      </div>
+        </div>
        
         <div className="right-col bg-dgreen px-5">
           <div className="container block text-center pt-5 pb-4">

@@ -13,12 +13,32 @@
   src: local('Modesto'), url(../fonts/modesto.woff) format('woff');
 }
 
+a.page-nav {
+  font-family: RestoraExtraLight, serif;
+}
+
 p {
     font-family: RestoraExtraLight, serif;
     margin-top: .5rem;
     margin-bottom: .5rem;
     font-size: 16px;
 }
+
+::placeholder {
+  font-family: RestoraExtraLight, serif;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 16px;
+}
+
+.rsvp {
+  font-family: RestoraExtraLight, serif;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 22px;
+    width: 100%;
+}
+
 
 p.modesto {
   font-family: Modesto, serif;

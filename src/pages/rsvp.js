@@ -21,54 +21,83 @@ const Rsvp = () => {
     <PageLayout pageTitle="Home Page">
 
     <div className="main-container">  
-        <div className="left-col bg-lgreen px-5"> 
-        <div className="page-nav"> 
-          <div className="block pt-5">
-              <div className="m1"><p className="superbig euphorigenic dgreen">RSVP</p></div>
-          </div>
+      <div className="left-col bg-lgreen px-5"> 
+        <PageNav
+          anchor1="RSVP"
+          anchor2="Kindly Reply"
+          anchor3="FAQ"
+          anchor4="Will the Ceremony be Outside?"
+          anchor5="Are Children Allowed at the Ceremony?"
+          anchor6="Can I Take Pictures at the Ceremony?"
+          anchor7="Is there wheelchair access?"
+        ></PageNav>
+      </div>
+
+      {/* <div className="mx-3 px-3 mb-4">
+            <p className="fs-2 modesto white">{title}</p>
+            <p className="white mb-3">{contents}</p>
+            <a class="page-nav white fs-5 mb-1" href="{link}" role="button">{linktext}</a>
         </div>
-        </div>
+        {children}
+        <img className="star my-4" src={star}></img> */}
        
         <div className="right-col bg-dgreen px-5">
           <div className="container block text-center pt-5 pb-4">
             <img className="moons img-fluid" src={moons}></img>
           </div>
-          <div className="pt-2">
-              <div className="mx-3 px-3 mb-4 text-center">
-                  <p className="fs-5 modesto gold">RSVP to the Main Event!</p>
-                  <p className="white mb-3">We can’t wait to celebrate with ya! Kindly respond by August 1st. </p>
-              </div>
-          </div>
 
-          <div className="pt-2">
+          <TextBlock 
+            anchor="link2"
+            title="Kindly Reply"
+            contents="We can’t wait to celebrate with ya! Kindly respond by August 1st."
+            >
+
+          <div className="pt-2" id="#link2">
               <div className="mx-3 px-3 mb-4 text-center">
               <Form action="https://api.sheetmonkey.io/form/79YHxYU9GzVH3AuZPkAPNC" method="post">
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                   <Form.Label>Who's RSVP'ing?</Form.Label>
                   <Form.Control type="text" placeholder="Kim Kardashian" name="Name"/>
-                  <Form.Label>Name of Guest</Form.Label>
+                  <Form.Label className="mt-4">Name of Guest</Form.Label>
                   <Form.Control type="text" placeholder="Who ya bringing?" name="Name"/>
-                  <Form.Label>Anything else you'd like for us to know?</Form.Label>
+                  <Form.Label className="mt-4">Anything else you'd like for us to know?</Form.Label>
                   <Form.Control type="text" placeholder="Special dietary requests, accessible seating?" name="Name"/>
                 </Form.Group>
-                <input type="submit" value="RSVP" />
+                <button type="submit" class="rsvp btn bg-yellow my-4" value="RSVP">RSVP</button>
               </Form>
-
-                  {/* <form action="https://api.sheetmonkey.io/form/79YHxYU9GzVH3AuZPkAPNC" method="post">
-                    <label><p className="white">Who is RSVP'ing</p><input type="text" name="Name" required /></label>
-                    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" /> <br></br>
-                    <label><p className="white">Your Email</p><input type="text" name="Name" required /></label><br></br>
-                    <InputGroup className="mb-3">
-                      <InputGroup.Checkbox />
-                      <FormControl aria-label="Text input with checkbox" />
-                    </InputGroup>
-                    <input type="submit" value="Send my response" />
-                  </form> */}
-
-                  
-
               </div>
           </div>
+          </TextBlock>
+
+          <TextBlock 
+            anchor="link3"
+            title="FAQ"
+            contents="In case you have questions..."
+          ></TextBlock>
+
+          <TextBlock 
+            anchor="link4"
+            title="Will the ceremony be outside?"
+            contents="Weather permitting the ceremony will be outside, dress warmly the end of October in Minnesota normally is between 45-60 degrees. If it snows, rains, or is below zero, the ceremony will mostly definitely be held inside."
+          ></TextBlock>
+
+          <TextBlock 
+            anchor="link5"
+            title="Are children allowed at the ceremony or reception?"
+            contents="While we would love to have all of our family members on our guest list, we have decided to keep our wedding an adults-only event."
+          ></TextBlock>
+
+          <TextBlock 
+            anchor="link6"
+            title="Can I take pictures during the ceremony?"
+            contents="We ask that you please turn off your cellphones & cameras during the ceremony. Don't worry, we have hired a photographer and will have a lot of photos to share with you after the wedding."
+          ></TextBlock>
+
+          <TextBlock 
+            anchor="link7"
+            title="Is there wheelchair access?"
+            contents="Yes! From the parking ramp, take the elevator to the Hall of Kings, and follow the hallway to the doors to the courtyard. To access the reception there is an elevator marked to take you downstairs to reception area."
+          ></TextBlock>
 
 
         </div>
