@@ -122,10 +122,6 @@ a.euphorigenic {
   top: 0px;
 }
 
-.main-nav {
-  top: 41px;
-}
-
 .custom-height {
   height: 800px;
   top: 13vh;
@@ -215,5 +211,4 @@ a.euphorigenic {
     height: 800px;
     top: 100px;
   }
-  
 }

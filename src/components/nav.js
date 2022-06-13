@@ -1,6 +1,8 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+
 
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
@@ -19,19 +21,24 @@ import logo from '../images/elements/headliner.svg';
 
 
 
-const MainNav = ({ pageTitle, children }) => {
+const MainNav = ({ pageTitle, children, isHome }) => {
 
-  let isHome;
-  const location = window.location.pathname;
-  if (location === '/') {
-    isHome = true;
-  }
+
+  useEffect(() => {
+    const location = window.location.pathname;
+    if (location === '/home') {
+      isHome = true;
+    };
+    console.log(location)
+  }, []);
+
+
 
   return (
-  <div class="sticky-top">
+  <div className="fixed-top">
     {isHome ? ''
     : 
-    <Navbar fixed="top" expand="lg" className="justify-content-center bg-lgreen headliner headliner-lm">
+    <Navbar fixed="top" expand="lg" className="justify-content-center bg-lgreen headliner headliner-lm position-relative">
       <Navbar.Brand href="/home">
         <img
         src={logo}
@@ -40,8 +47,8 @@ const MainNav = ({ pageTitle, children }) => {
     </Navbar>
     }
 
-    <Navbar expand="lg" fixed="top" className="text-center white bg-teal main-nav">
-        <Container fluid className="justify-content-lg-center justify-content-xs-end text-center">
+    <Navbar expand="lg" className="text-center white bg-teal main-nav">
+        <Container fluid className="justify-content-lg-end justify-content-sm-end text-center position-relative">
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll" aria-expanded="false">
             <Nav
