@@ -242,7 +242,17 @@ html {
     z-index: 10000;
     width: 13em;
     right: 8px;
+    pointer-events: none;
   }
+
+  .home-page {
+    height: 100%;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #05231aff 0%, #181818ff 100%);
+    position: relative;
+    top: -57px;
+  }
+  
 
   .left-border {
     position: fixed;
@@ -250,15 +260,17 @@ html {
     z-index: 10000;
     width: 13em;
     left: 0px;
+    pointer-events:none;
   }
 
   .navbar {
-    position: relative;
-    display: flex;
+    position: absolute;
+    background-color: none!important;
+    /* display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding-top: 0.2rem;
+    padding-top: 0.2rem; */
 }
 
 .navbar-brand {
