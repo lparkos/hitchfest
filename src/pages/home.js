@@ -24,7 +24,9 @@ import '../styles/main.css'
 const Home = () => {
 
   return (
-    <PageLayout pageTitle="Home Page">
+    <PageLayout pageTitle="Home Page"><div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
         <div className="m-2 pt-2 pb-5">
         <div class="container-fluid">
         <div class="row align-items-start">
