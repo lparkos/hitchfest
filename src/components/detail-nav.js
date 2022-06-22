@@ -32,7 +32,7 @@ const DetailNav = ({ pageTitle, children }) => {
   });
 
   const detectHome = () => {
-    const homePath = location.pathname === '/' || location.pathname === '/home';
+    const homePath = location.pathname === '/';
     if (!homePath) {
       setState(prevState => ({
         ...prevState,

@@ -25,7 +25,7 @@ import '../styles/main.css'
 const Index = () => {
 
   return (
-    <div className="container-fluid vh-100">
+    <div className="main-container container-fluid vh-100">
       <MainNav></MainNav>
         <div className="m-2 pt-2 pb-5">
         <div id='stars'></div>
