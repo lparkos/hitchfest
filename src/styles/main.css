@@ -60,6 +60,7 @@ a.euphorigenic {
 
 .main-container {
   overflow: hidden;
+  pointer-events: none;
 }
 
 .left-col {
@@ -137,6 +138,7 @@ html {
 .navbar {
   padding-top: 0rem!important;
   padding-bottom: 0rem!important;
+  pointer-events: visible;
 }
 
 .custom-height {
@@ -268,6 +270,7 @@ html {
     padding-top: 1.5%;
     width: 100%;
     z-index: 100;
+    pointer-events: visible;
   }
 
   .navbar-brand {
