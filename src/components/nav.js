@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useEffect } from "react";
 import { useState } from 'react';
 import { useLocation, createMemorySource, createHistory } from "@reach/router"
+import { Spiral as Hamburger } from 'hamburger-react'
 
 
 import Navbar from 'react-bootstrap/Navbar'
@@ -58,7 +59,7 @@ const MainNav = ({ pageTitle, children }) => {
   return (
   <div className="fixed-top">
     {state.isHome ? ''
-    : <Navbar fixed="top" expand="lg" className="justify-content-center bg-lgreen headliner headliner-lm position-relative">
+    : <Navbar fixed="top" expand="lg" className="justify-content-center headliner bg-dgreen headliner-lm position-relative">
     <Navbar.Brand href="/home">
       <img
       src={logo}
@@ -67,12 +68,12 @@ const MainNav = ({ pageTitle, children }) => {
   </Navbar>
     }
 
-    <Navbar expand="lg" className="text-center white bg-teal main-nav">
-        <Container fluid className="justify-content-lg-end justify-content-sm-end text-center position-relative">
-          <Navbar.Toggle aria-controls="navbarScroll" />
+    <Navbar expand="lg" className="text-center white main-nav justify-content-center">
+        <div>
+          <Navbar.Toggle aria-controls="navbarScroll"><Hamburger size={30} color="#CEB27C" rounded/></Navbar.Toggle>
           <Navbar.Collapse id="navbarScroll" aria-expanded="false">
             <Nav
-              className="me-auto my-2 my-lg-0 justify-center mx-auto"
+              className="me-auto my-2 pb-xs-3 justify-center mx-auto"
               navbarScroll
           >
               <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
@@ -97,7 +98,7 @@ const MainNav = ({ pageTitle, children }) => {
               </motion.a>
               </Nav>
           </Navbar.Collapse>
-        </Container>
+        </div>
       </Navbar>
     </div>
   )

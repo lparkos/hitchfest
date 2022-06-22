@@ -30,13 +30,13 @@ const IndexPage = ({ children }) => {
     <PageLayout>
         <Container>
           <div class="row align-items-start">
-              <div class="col">
+              <div class="col left-border">
               <img className="img-fluid" src={cornerleft}></img>
               </div>
-              <div class="col text-center">
+              <div class="col text-center d-sm-none">
               <img className="img-fluid w-25 align-top" src={universe}></img>
               </div>
-              <div class="col">
+              <div class="col right-border">
               <img className="img-fluid" src={cornerright}></img>
               </div>
           </div>
