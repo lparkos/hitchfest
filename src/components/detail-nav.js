@@ -24,7 +24,7 @@ import logo from '../images/elements/headliner.svg';
 
 
 
-const MainNav = ({ pageTitle, children }) => {
+const DetailNav = ({ pageTitle, children }) => {
   const location = useLocation();
   const [state, setState] = useState({
     isHome: location.pathname === '/',
@@ -57,9 +57,9 @@ const MainNav = ({ pageTitle, children }) => {
   console.log(state.isHome);
 
   return (
-  <div>
+  <div className="d-flex">
     {state.isHome ? ''
-    : <Navbar fixed="top" expand="lg" className="justify-content-center headliner headliner-lm position-relative">
+    : <Navbar fixed="top" expand="lg" className="justify-content-start bg-dgreen">
     <Navbar.Brand href="/">
       <img
       src={logo}
@@ -68,12 +68,12 @@ const MainNav = ({ pageTitle, children }) => {
   </Navbar>
     }
 
-    <Navbar expand="lg" className="text-center white main-nav justify-content-center">
+    <Navbar expand="lg" className="justify-content-end white main-nav bottom-0 end-0">
         <div>
-          <Navbar.Toggle aria-controls="navbarScroll"><Hamburger size={30} color="#CEB27C" rounded/></Navbar.Toggle>
+          <Navbar.Toggle aria-controls="navbarScroll"><Hamburger className="justify-content-end" size={30} color="#CEB27C" rounded/></Navbar.Toggle>
           <Navbar.Collapse id="navbarScroll" aria-expanded="false">
             <Nav
-              className="me-auto my-2 pb-xs-3 justify-center mx-auto"
+              className="me-auto my-2 pb-xs-3 mx-auto bg-dgreen"
               navbarScroll
           >
               <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
@@ -103,4 +103,4 @@ const MainNav = ({ pageTitle, children }) => {
     </div>
   )
 }
-export default  MainNav
+export default  DetailNav
