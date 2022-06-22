@@ -24,10 +24,11 @@ import '../styles/main.css'
 const Home = () => {
 
   return (
-    <PageLayout pageTitle="Home Page"><div id='stars'></div>
-    <div id='stars2'></div>
-    <div id='stars3'></div>
-        <div className="m-2 pt-2 pb-5">
+    <PageLayout pageTitle="Home Page">
+        <div className="m-2 pt-2 pb-5 home-page">
+        <div id='stars'></div>
+         <div id='stars2'></div>
+          <div id='stars3'></div>
         <div class="container-fluid">
         <div class="row align-items-start">
             <div class="col left-border">

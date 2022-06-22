@@ -277,10 +277,10 @@ html {
 }
 
 
-html {
+.home-page {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, color: var(--phthalo-green); 0%, var(--eerie-black););
   overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #05231aff 0%, #181818ff 100%);
 }
 
 #stars {
