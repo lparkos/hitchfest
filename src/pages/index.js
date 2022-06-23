@@ -55,7 +55,7 @@ const Index = () => {
             easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
             >
             <div class="text-center">
-            <img className="img-fluid w-75 align-top" src={landm}></img>
+            <img className="img-fluid w-lg-75 w-sm-100 align-top" src={landm}></img>
             </div>
             </Animate>
             <Animate
@@ -67,7 +67,7 @@ const Index = () => {
             easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
             >
             <div class="text-center">
-            <img className="img-fluid w-50 pt-2 align-top" src={cosmicdate}></img>
+            <img className="img-fluid w-lg-50 w-sm-75 pt-2 align-top" src={cosmicdate}></img>
             </div>
             </Animate>
             <Animate
@@ -79,7 +79,7 @@ const Index = () => {
             easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
             >
             <div class="text-center">
-            <img className="img-fluid w-50 pt-2 align-top" src={mspmn}></img>
+            <img className="img-fluid w-lg-50 w-sm-75 pt-2 align-top" src={mspmn}></img>
             </div>
             </Animate>
         </div>

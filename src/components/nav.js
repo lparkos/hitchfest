@@ -57,42 +57,32 @@ const MainNav = ({ pageTitle, children }) => {
   console.log(state.isHome);
 
   return (
-  <div>
-    {state.isHome ? ''
-    : <Navbar fixed="top" expand="lg" className="justify-content-center headliner headliner-lm position-relative">
-    <Navbar.Brand href="/">
-      <img
-      src={logo}
-      width="150"/> 
-    </Navbar.Brand>
-  </Navbar>
-    }
-
+  <div className="container-fluid position-relative">
     <Navbar expand="lg" className="text-center white main-nav justify-content-center">
         <div>
           <Navbar.Toggle aria-controls="navbarScroll"><Hamburger size={30} color="#CEB27C" rounded/></Navbar.Toggle>
           <Navbar.Collapse id="navbarScroll" aria-expanded="false">
             <Nav
-              className="me-auto my-2 pb-xs-3 justify-center mx-auto"
+              className="home me-auto my-2 pb-xs-3 justify-center mx-auto container-fluid"
               navbarScroll
           >
               <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-                  <Navbar.Text className="px-5 modesto">
+                  <Navbar.Text className="px-5 modesto white">
                     <Link to="/location">Location & Accomodation</Link>
                   </Navbar.Text>
               </motion.a>
               <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-                  <Navbar.Text className="px-5 modesto">
+                  <Navbar.Text className="px-5 modesto white">
                     <Link to="/schedule">Schedule</Link>
                   </Navbar.Text>
               </motion.a>
               <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-                  <Navbar.Text className="px-5 modesto">
+                  <Navbar.Text className="px-5 modesto white">
                     <Link to="/registry">Registry</Link>
                   </Navbar.Text>
               </motion.a>
               <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-                  <Navbar.Text className="px-5 modesto">
+                  <Navbar.Text className="px-5 modesto white">
                     <Link to="/rsvp">RSVP</Link>
                   </Navbar.Text>
               </motion.a>

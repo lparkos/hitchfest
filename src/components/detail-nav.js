@@ -57,50 +57,44 @@ const DetailNav = ({ pageTitle, children }) => {
   console.log(state.isHome);
 
   return (
-  <div className="d-flex">
-    {state.isHome ? ''
-    : <Navbar fixed="top" expand="lg" className="justify-content-start bg-dgreen">
-    <Navbar.Brand href="/">
-      <img
-      src={logo}
-      width="150"/> 
-    </Navbar.Brand>
-  </Navbar>
-    }
+  <div className="d-sm-flex bg-lgreen">
+  <Navbar expand="lg" fixed="top" className="bg-lgreen">
+      <Navbar.Brand href="/" className="px-4 mx-3">
+        <img
+        src={logo}
+        width="150"/> 
+      </Navbar.Brand>
 
-    <Navbar expand="lg" className="justify-content-end white main-nav bottom-0 end-0">
-        <div>
-          <Navbar.Toggle aria-controls="navbarScroll"><Hamburger className="justify-content-end" size={30} color="#CEB27C" rounded/></Navbar.Toggle>
-          <Navbar.Collapse id="navbarScroll" aria-expanded="false">
-            <Nav
-              className="me-auto my-2 pb-xs-3 mx-auto bg-dgreen"
-              navbarScroll
-          >
-              <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-                  <Navbar.Text className="px-5 modesto">
-                    <Link to="/location">Location & Accomodation</Link>
-                  </Navbar.Text>
-              </motion.a>
-              <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-                  <Navbar.Text className="px-5 modesto">
-                    <Link to="/schedule">Schedule</Link>
-                  </Navbar.Text>
-              </motion.a>
-              <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-                  <Navbar.Text className="px-5 modesto">
-                    <Link to="/registry">Registry</Link>
-                  </Navbar.Text>
-              </motion.a>
-              <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-                  <Navbar.Text className="px-5 modesto">
-                    <Link to="/rsvp">RSVP</Link>
-                  </Navbar.Text>
-              </motion.a>
-              </Nav>
-          </Navbar.Collapse>
-        </div>
-      </Navbar>
-    </div>
+      <Navbar.Toggle className="mx-4" aria-controls="navbarScroll"><Hamburger size={30} color="#CEB27C" rounded/></Navbar.Toggle>
+      <Navbar.Collapse id="navbarScroll" aria-expanded="false">
+        <Nav
+          className="me-auto my-2 pb-xs-3 mx-auto bg-lgreen dgreen"
+          navbarScroll
+      >
+          <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
+              <Navbar.Text className="px-5 modesto dgreen">
+                <Link to="/location">Location & Accomodation</Link>
+              </Navbar.Text>
+          </motion.a>
+          <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
+              <Navbar.Text className="px-5 modesto dgreen">
+                <Link to="/schedule">Schedule</Link>
+              </Navbar.Text>
+          </motion.a>
+          <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
+              <Navbar.Text className="px-5 modesto dgreen">
+                <Link to="/registry">Registry</Link>
+              </Navbar.Text>
+          </motion.a>
+          <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
+              <Navbar.Text className="px-5 modesto dgreen">
+                <Link to="/rsvp">RSVP</Link>
+              </Navbar.Text>
+          </motion.a>
+          </Nav>
+      </Navbar.Collapse>
+  </Navbar>
+</div>
   )
 }
 export default  DetailNav

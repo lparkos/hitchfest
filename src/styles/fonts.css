@@ -66,3 +66,7 @@ a.modesto {
   color: var(--yellow);
   text-align: left;
 }
+
+.white a {
+  color: var(--platinum);
+}

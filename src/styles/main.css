@@ -18,7 +18,6 @@ a p {
 .page-nav a {
   text-decoration: none;
   padding: 0 0rem;
-  text-decoration-color: var(--phthalo-green);
 }
 
 .page-nav p {
@@ -33,7 +32,6 @@ a:hover {
 
 .navbar-light .navbar-nav .navbar-text a{
   text-decoration: none;
-  color: var(--platinum);
 }
 
 .navbar-text {
@@ -60,13 +58,14 @@ a.euphorigenic {
 
 .main-container {
   overflow: hidden;
-  pointer-events: none;
+  position: absolute;
 }
 
 .left-col {
   position: fixed;
   height: 100%;
   width: 50%;
+  padding-bottom: 2em;
 }
 
 .right-col {
@@ -115,7 +114,6 @@ html {
 .fader-top {
   background: rgb(5,35,26);
   background: linear-gradient(180deg, rgba(5,35,26,1) 11%, rgba(255,255,255,0) 32%);
-  z-index: 100;
 }
 
 .fader-bottom {
@@ -205,6 +203,16 @@ html {
     height: auto;
     display: block;
   }
+
+  .home .navbar-text a{
+    text-decoration: none;
+    color: var(--platinum);
+  }
+
+  .home .navbar-text a:hover {
+    text-decoration: none;
+    color: var(--platinum);
+  }
   
   .right-col {
     width: 100%;
@@ -228,7 +236,7 @@ html {
   }
   
   .main-nav {
-    top: 0px;
+    top: 7px;
   }
 
   .custom-height {
@@ -263,59 +271,27 @@ html {
     pointer-events:none;
   }
 
+
   .navbar {
-    background-color: none!important;
-    padding-top: 0rem!important;
-    padding-bottom: 0rem!important;
-    padding-top: 1.5%;
-    width: 100%;
     z-index: 100;
     pointer-events: visible;
   }
 
-  .navbar-brand {
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    margin-right: 0rem;
-    font-size: 1.25rem;
-    text-decoration: none;
-    white-space: nowrap;
-    margin-left: 1em;
-    margin-top: 1.5em;
-}
-
-.fixed-top {
-  background-color: #C6CEC8;
-  height: 60px;
-}
-
-.navbar-toggler {
-  padding: 0.7rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  transition: box-shadow 0.15s ease-in-out;
-}
-
 .navbar-light .navbar-toggler {
   color: rgb(0 0 0 / 0%);
   border-color: rgb(0 0 0 / 0%);
-  right: 0px;
-  position: absolute;
-  top: 11px;
   z-index: 1000;
 }
 
 .navbar-collapse {
-  flex-basis: 100%;
-  flex-grow: 1;
-  align-items: center;
-  position: absolute;
-  top: -10px;
-  background-color: #05231aff;
-  padding: 2em;
+  box-sizing: initial;
+  z-index: 1000;
+  box-shadow: -5px 10px 10px #00000047;
+}
+
+
+.navbar-nav {
+  padding: 1em 0em;
 }
 
 }
