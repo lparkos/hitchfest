@@ -24,7 +24,7 @@ const Registry = () => {
     <PageLayout pageTitle="Home Page">
 
     <div className="main-container">  
-       <div className="left-col bg-lgreen px-5"> 
+       <div className="left-col bg-sage px-5"> 
           <PageNav
             anchor1="Registry"
             anchor2="Honeymoon Fund"

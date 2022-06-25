@@ -26,7 +26,6 @@ const Index = () => {
 
   return (
     <div className="main-container container-fluid vh-100" style={{overflow: 'hidden', position: 'fixed'}}>
-      <MainNav></MainNav>
         <div className="m-2 pt-2 pb-5">
         <div id='stars'></div>
          <div id='stars2'></div>
@@ -36,10 +35,11 @@ const Index = () => {
             <div class="col left-border">
             <img className="img-fluid" src={cornerleft}></img>
             </div>
-            <div class="col text-center d-none d-sm-block">
-            <img className="img-fluid w-25 align-top" src={universe}></img>
+            <div class="col text-center">
+            <MainNav></MainNav>
+            <img className="img-fluid width-10 align-top" src={universe}></img>
             </div>
-            <div class="col right-border">
+            <div class="col right-border text-end">
             <img className="img-fluid" src={cornerright}></img>
             </div>
         </div>
@@ -55,7 +55,7 @@ const Index = () => {
             easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
             >
             <div class="text-center">
-            <img className="img-fluid w-lg-75 w-sm-100 align-top" src={landm}></img>
+            <img className="img-fluid width-75 align-top" src={landm}></img>
             </div>
             </Animate>
             <Animate
@@ -67,7 +67,7 @@ const Index = () => {
             easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
             >
             <div class="text-center">
-            <img className="img-fluid w-lg-50 w-sm-75 pt-2 align-top" src={cosmicdate}></img>
+            <img className="img-fluid width-60 pt-2 align-top" src={cosmicdate}></img>
             </div>
             </Animate>
             <Animate
@@ -79,20 +79,20 @@ const Index = () => {
             easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
             >
             <div class="text-center">
-            <img className="img-fluid w-lg-50 w-sm-75 pt-2 align-top" src={mspmn}></img>
+            <img className="img-fluid width-60 pt-2 align-top" src={mspmn}></img>
             </div>
             </Animate>
         </div>
         </div>
-        <div class="container-fluid fixed-bottom">
+        <div class="container-fluid special-bottom fixed-bottom">
         <div class="row align-items-start">
-            <div class="col">
-            <img className="img-fluid" src={cornerbleft}></img>
+            <div class="col left-border">
+            <img className="img-fluid width-60" src={cornerbleft}></img>
             </div>
             <div class="col text-center">
             </div>
-            <div class="col"> 
-            <img className="img-fluid" src={cornerbright}></img>
+            <div class="col right-border text-end"> 
+            <img className="img-fluid width-60" src={cornerbright}></img>
             </div>
         </div>
         </div>

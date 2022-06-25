@@ -33,7 +33,7 @@ const Location = () => {
     <PageLayout pageTitle="Home Page">
 
     <div className="main-container">  
-        <div className="left-col bg-lgreen px-5"> 
+        <div className="left-col bg-sage px-5"> 
           <PageNav
             anchor1="Location Information"
             anchor2="Ceremony & Reception"

@@ -6,6 +6,7 @@
     --platinum: #ebeaeaff;
     --xanadu: #C6CEC8;
     --yellow: #CEB27C;
+    --sage: #909e93;
     }
     
     
@@ -28,6 +29,10 @@
     
     .lgreen {
         color: var(--xanadu);
+    }
+
+    .sage {
+        color: var(--sage);
     }
 
     .gold {
@@ -57,6 +62,10 @@
 
     .bg-yellow {
         background-color: var(--yellow);
+    }
+
+    .bg-sage {
+        background-color: var(--sage);
     }
 
     
