@@ -41,7 +41,7 @@ const Rsvp = () => {
         {children}
         <img className="star my-4" src={star}></img> */}
        
-        <div className="right-col bg-dgreen px-5">
+        <div className="right-col bg-dgreen px-3">
           <div className="container block text-center pt-5 pb-4">
             <img className="moons img-fluid" src={moons}></img>
           </div>

@@ -20,7 +20,7 @@ const Schedule = () => {
   return (
     <PageLayout pageTitle="Home Page">
 
-  <div className="m-2 pt-2 pb-5 container-fluid">
+  <div className="m-2 pt-2 pb-5 container-fluid px-3">
         <div class="container-fluid position-fixed w-100 fader-top fixed-top-hack">
           <div class="row align-items-start">
             <div class="col">
