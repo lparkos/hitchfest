@@ -71,11 +71,11 @@ const MainNav = ({ pageTitle, children }) => {
                     <Link to="/location">Location</Link>
                   </Navbar.Text>
               </motion.a>
-              <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
+              {/* <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
                   <Navbar.Text className="px-5 modesto white">
                     <Link to="/schedule">Schedule</Link>
                   </Navbar.Text>
-              </motion.a>
+              </motion.a> */}
               <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
                   <Navbar.Text className="px-5 modesto white">
                     <Link to="/registry">Registry</Link>
