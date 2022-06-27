@@ -12,7 +12,7 @@ import pic6 from '../images/elements/carousel/6.png'
 
 const CarouselGallery = () => {
   return (
-    <Carousel variant="dark">
+    <Carousel variant="dark" touch="true" controls="false">
         <Carousel.Item>
         <img
             className="d-block w-100"

@@ -80,6 +80,7 @@ a.euphorigenic {
   height: 100%;
   width: 50%;
   padding-bottom: 2em;
+  pointer-events: all;
 }
 
 .right-col {
@@ -112,7 +113,6 @@ html {
 .carousel-inner {
   max-height: 200px;
   overflow: hidden;
-  border: 10px solid var(--phthalo-green);
 }
 
 .carousel-item img {
@@ -280,7 +280,7 @@ html {
 
   .mobile-main-container {
     position: fixed;
-    height: 45vh;
+    height: 30vh;
     width: 95vw;
   }
 
@@ -311,6 +311,7 @@ html {
     height: auto;
     display: block;
     margin-left: 0%;
+    pointer-events: all;
   }
 
   .superbig {
