@@ -7,6 +7,8 @@ import { Animate }  from 'react-simple-animate';
 import PageLayout from '../components/page-layout'
 import MainNav from '../components/nav'
 import MenuBlock from '../components/menu-block'
+import TextBlock from '../components/textblock'
+
 
 import cornerleft from '../images/elements/corner-left.svg'
 import universe from '../images/elements/universe.svg'
@@ -23,7 +25,7 @@ import '../styles/fonts.css'
 import '../styles/main.css'
 
 
-const NotFoundPage = () => {
+const Index = () => {
 
   return (
     <div className="main-container container-fluid vh-100" style={{overflow: 'hidden', position: 'fixed'}}>
@@ -46,42 +48,10 @@ const NotFoundPage = () => {
         </div>
         <div class="container-fluid position-absolute top-50 start-50 translate-middle">
         <div class="row align-items-start">
-            <Animate
-            play={true} // set play true to start the animation
-            duration={.5} // how long is the animation duration
-            delay={0.2} // how many delay seconds will apply before the animation start
-            start={{ opacity: '0', transform: 'translate(0px, 0px) scale(1.4)'}}
-            end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
-            easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
-            >
-            <div class="text-center">
-            <img className="img-fluid width-75 align-top" src={landm}></img>
-            </div>
-            </Animate>
-            <Animate
-            play={true} // set play true to start the animation
-            duration={.3} // how long is the animation duration
-            delay={0.3} // how many delay seconds will apply before the animation start
-            start={{ opacity: '0', transform: 'translate(0px, 0px) scale(1)'}}
-            end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
-            easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
-            >
-            <div class="text-center">
-            <img className="img-fluid width-60 pt-2 align-top" src={cosmicdate}></img>
-            </div>
-            </Animate>
-            <Animate
-            play={true} // set play true to start the animation
-            duration={.5} // how long is the animation duration
-            delay={0.3} // how many delay seconds will apply before the animation start
-            start={{ opacity: '0', transform: 'translate(0px, 0px) scale(1)'}}
-            end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
-            easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
-            >
-            <div class="text-center">
-            <img className="img-fluid width-60 pt-2 align-top" src={mspmn}></img>
-            </div>
-            </Animate>
+         <TextBlock 
+            title="We'll see you soon!"
+            contents="Yay! We're really excited to share this day with you!"
+          ></TextBlock>
         </div>
         </div>
         <div class="container-fluid bottom-borders position-absolute bottom-0 start-50 translate-middle-x">
@@ -122,4 +92,4 @@ const NotFoundPage = () => {
     </div>
   )
 }
-export default NotFoundPage
+export default Index

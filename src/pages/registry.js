@@ -43,21 +43,13 @@ const Registry = () => {
             contents="Our wedding will be held at 
             El Jefe Urban Hacienda on beautiful St. Anthony Main in Northeast Minneapolis. Our ceremony is outside in the courtyard and dinner and reception will follow downstairs at the Hall of Kings. Signs will be posted! Address: 219 SE Main St, Minneapolis, MN 55414"
             linktext="Visit Zola Registry"
-            link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
+            link="www.zola.com/registry/matthewandlaurenoctober29"
           ></TextBlock>
 
           <TextBlock 
             anchor="link3"
             title="Honeymoon Fund"
             contents="There is a parking ramp that you can park in that is connected to the building. This has handicap access and wheelchair access and will take you right where you need to go."
-            linktext="Make a Contribution"
-            link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
-          ></TextBlock>
-
-          <TextBlock 
-            anchor="link4"
-            title="Deck Fund"
-            contents="If you are staying at a hotel nearby, you can tell your driver to drop you off at the front of the court yard, from there you can walk right in the court yard where the ceremony will be held."
             linktext="Make a Contribution"
             link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
           ></TextBlock>

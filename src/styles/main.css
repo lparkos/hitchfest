@@ -11,8 +11,8 @@ body {
   max-zoom: 0.9;
 }
 
-a {
-  text-decoration: none;
+a:hover {
+  color: var(--sage)!important;
 }
 
 .page-nav-image {
@@ -36,7 +36,7 @@ a p {
 }
 
 a:hover {
-  color: var(--platinum);
+  color: var(--sage);
   text-decoration: none;
   transition: ease-in-out 100ms;
 }
@@ -272,7 +272,7 @@ html {
 
   .home .navbar-text a:hover {
     text-decoration: none;
-    color: var(--platinum);
+    color: var(--sage);
   }
   
   .right-col {

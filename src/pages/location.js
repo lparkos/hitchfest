@@ -53,7 +53,7 @@ const Location = () => {
             anchor="link2"
             title="Cermony & Reception"
             contents="Our wedding will be held at 
-            El Jefe Urban Hacienda on beautiful St. Anthony Main in Northeast Minneapolis. Our ceremony is outside in the courtyard and dinner and reception will follow downstairs at the Hall of Kings. Signs will be posted! Address: 219 SE Main St, Minneapolis, MN 55414"
+            El Jefe Urban Hacienda on St. Anthony Main in Northeast Minneapolis. The ceremony will be held outside in the courtyard, and dinner and reception will follow downstairs at the Hall of Kings. Signs will be posted! Address: 219 SE Main St, Minneapolis, MN 55414"
             linktext="Get Directions"
             link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
           ></TextBlock>
@@ -61,8 +61,8 @@ const Location = () => {
           <TextBlock 
             anchor="link3"
             title="Hotel Blocks"
-            contents="We've blocked off rooms at the Rennasaince Hotel if you choose to book here. Their are many hotels in the city, but this one is the closest! <br></br>219 SE Main St, Minneapolis, MN 55414"
-            linktext="Get Directions"
+            contents="We've blocked off rooms at the Rennasaince Hotel, which is just 1 mile from the El Jefe. Address: 219 SE Main St, Minneapolis, MN 55414"
+            linktext="Book Hotel"
             link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
           ></TextBlock>
          
@@ -70,24 +70,24 @@ const Location = () => {
             anchor="link4"
             title="Airport Information"
             contents="If you are staying at a hotel nearby, you can tell your driver to drop you off at the front of the court yard, from there you can walk right in the court yard where the ceremony will be held."
-            linktext="Get Directions"
-            link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
+            linktext="Directions: Airport to Venue"
+            link="https://www.google.com/maps/dir/MSP+Terminal+1+Concourse+A-Lindbergh,+Saint+Paul,+MN/Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9235866,-93.312533,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x87f62934a4b9e935:0xd78fd85c55e5e8e8!2m2!1d-93.2006426!2d44.8803951!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
           ></TextBlock>
 
           <TextBlock 
             anchor="link5"
             title="Transportation"
-            contents="Uber/Lyft are available from the airport to many metro area hotels and destinations. Alternatively you could take the Light Rail from the airport. "
-            linktext="Get Directions"
-            link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
+            contents="Uber/Lyft are available from the airport to many metro area hotels and destinations. Alternatively you could take the Light Rail from the airport."
+            linktext="Book an Uber"
+            link="https://www.uber.com/us/en/ride/how-it-works/scheduled-rides/"
           ></TextBlock>
 
           <TextBlock 
             anchor="link6"
             title="Parking"
-            contents="There is a parking ramp that you can park in that is connected to the building. This has handicap access and wheelchair access and will take you right where you need to go."
-            linktext="Get Directions"
-            link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
+            contents="Ramp parking is recommended because it’s convenient & inexpensive. Enter ramp off 2nd Street SE & 2nd Avenue SE."
+            linktext="View Parking Map"
+            link="https://jefeminneapolis.com/parking/"
           ></TextBlock>
 
           <TextBlock 
