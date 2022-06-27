@@ -8,6 +8,8 @@ import PageLayout from '../components/page-layout'
 import MainNav from '../components/nav'
 import MenuBlock from '../components/menu-block'
 import CarouselGallery from '../components/carousel'
+import DiscoBall from '../components/discoball'
+
 
 
 import cornerleft from '../images/elements/corner-left.svg'
@@ -48,7 +50,9 @@ const Index = () => {
         </div>
         </div>
         <div class="container-fluid position-absolute top-50 start-50 translate-middle">
+
         <div class="row align-items-start">
+
             <Animate
             play={true} // set play true to start the animation
             duration={.5} // how long is the animation duration
