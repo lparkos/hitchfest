@@ -40,10 +40,9 @@ const Registry = () => {
           <TextBlock 
             anchor="link2"
             title="Zola Registry"
-            contents="Our wedding will be held at 
-            El Jefe Urban Hacienda on beautiful St. Anthony Main in Northeast Minneapolis. Our ceremony is outside in the courtyard and dinner and reception will follow downstairs at the Hall of Kings. Signs will be posted! Address: 219 SE Main St, Minneapolis, MN 55414"
+            contents="Help us update our kitchen!"
             linktext="Visit Zola Registry"
-            link="www.zola.com/registry/matthewandlaurenoctober29"
+            link="https://www.zola.com/registry/matthewandlaurenoctober29"
           ></TextBlock>
 
           <TextBlock 
