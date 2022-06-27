@@ -30,6 +30,7 @@ const Index = () => {
   return (
     <div className="main-container no-pointers container-fluid vh-100" style={{overflow: 'hidden', position: 'fixed'}}>
         <div className="m-2 pt-2 pb-5 mobile-main-container">
+        <span className="container-bg"></span>
         <div id='stars'></div>
          <div id='stars2'></div>
           <div id='stars3'></div>
@@ -98,7 +99,7 @@ const Index = () => {
         </div>
     </div>
     <div className="fixed-bottom home-nav">
-      <CarouselGallery></CarouselGallery>
+      {/* <CarouselGallery></CarouselGallery> */}
       <MenuBlock
         text="Location"
         link="location"
