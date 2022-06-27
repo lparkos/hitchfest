@@ -83,9 +83,9 @@ a.euphorigenic {
     opacity: 0.07;
     -webkit-filter: brightness(3);
     filter: brightness(3);
-    background-size: cover;
+    background-size: 110%;
     background-repeat: no-repeat;
-    background-position-y: -78px;
+    background-position: -18px -68px;
 }
 
 .no-pointers {
@@ -313,9 +313,9 @@ html {
     opacity: 0.09;
     -webkit-filter: brightness(3);
     filter: brightness(3);
-    background-size: 170%;
+    background-size: 184%;
     background-repeat: no-repeat;
-    background-position: -141px -48px;
+    background-position: -168px -58px;
   }
 
   .home-nav {
