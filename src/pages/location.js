@@ -45,7 +45,7 @@ const Location = () => {
           ></PageNav>
         </div>
        
-        <div className="right-col bg-green px-5">
+        <div className="right-col bg-green px-3">
           <div className="container block text-center pt-5 pb-4">
             <img className="moons img-fluid" src={moons}></img>
           </div>

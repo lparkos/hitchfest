@@ -72,6 +72,7 @@ a.euphorigenic {
   position: absolute;
   width: 100%;
   top: 0px;
+  pointer-events: none;
 }
 
 .left-col {
@@ -102,6 +103,27 @@ a.euphorigenic {
 
 html {
   scroll-padding-top: 200px; /* height of sticky header */
+}
+
+.vh-90{
+  height: 90vh;
+}
+
+.carousel-inner {
+  max-height: 200px;
+  overflow: hidden;
+  border: 10px solid var(--phthalo-green);
+}
+
+.carousel-item img {
+  max-width:100%;
+  max-height:100%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.carousel-indicators {
+  display: none;
 }
 
 
@@ -256,8 +278,16 @@ html {
     display: block;
   }
 
+  .mobile-main-container {
+    position: fixed;
+    height: 45vh;
+    width: 95vw;
+  }
+
   .home-nav {
     display: block!important;
+    pointer-events: all;
+    z-index: 1000;
   }
 
   .bottom-borders {
@@ -306,7 +336,7 @@ html {
   }
 
   .top-50 {
-    top: 40% !important;
+    top: 50% !important;
   }
 
   .width-75 {

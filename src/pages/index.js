@@ -7,6 +7,8 @@ import { Animate }  from 'react-simple-animate';
 import PageLayout from '../components/page-layout'
 import MainNav from '../components/nav'
 import MenuBlock from '../components/menu-block'
+import CarouselGallery from '../components/carousel'
+
 
 import cornerleft from '../images/elements/corner-left.svg'
 import universe from '../images/elements/universe.svg'
@@ -27,7 +29,7 @@ const Index = () => {
 
   return (
     <div className="main-container container-fluid vh-100" style={{overflow: 'hidden', position: 'fixed'}}>
-        <div className="m-2 pt-2 pb-5">
+        <div className="m-2 pt-2 pb-5 mobile-main-container">
         <div id='stars'></div>
          <div id='stars2'></div>
           <div id='stars3'></div>
@@ -89,8 +91,6 @@ const Index = () => {
             <div class="col left-border">
             <img className="img-fluid width-60" src={cornerbleft}></img>
             </div>
-            <div class="col text-center">
-            </div>
             <div class="col right-border text-end"> 
             <img className="img-fluid width-60" src={cornerbright}></img>
             </div>
@@ -98,6 +98,7 @@ const Index = () => {
         </div>
     </div>
     <div className="fixed-bottom home-nav">
+      <CarouselGallery></CarouselGallery>
       <MenuBlock
         text="Location"
         link="location"
