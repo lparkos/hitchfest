@@ -29,7 +29,6 @@ const Registry = () => {
             anchor1="Registry"
             anchor2="Honeymoon Fund"
             anchor3="Zola List"
-            anchor4="Deck Fund"
           ></PageNav>
         </div>
        
@@ -40,7 +39,7 @@ const Registry = () => {
           <TextBlock 
             anchor="link2"
             title="Zola Registry"
-            contents="Help us update our kitchen!"
+            contents="Help us update our kitchen as we enter the world of married life!"
             linktext="Visit Zola Registry"
             link="https://www.zola.com/registry/matthewandlaurenoctober29"
           ></TextBlock>
@@ -48,9 +47,9 @@ const Registry = () => {
           <TextBlock 
             anchor="link3"
             title="Honeymoon Fund"
-            contents="There is a parking ramp that you can park in that is connected to the building. This has handicap access and wheelchair access and will take you right where you need to go."
+            contents="Help us get the hell out of here! Lol, no but seriously winter is coming and we're leaving."
             linktext="Make a Contribution"
-            link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
+            link="https://www.zola.com/registry/collection-item/62b9ca8cbe3ca301a6b94bbc"
           ></TextBlock>
          
         </div>

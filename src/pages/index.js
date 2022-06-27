@@ -28,7 +28,7 @@ import '../styles/main.css'
 const Index = () => {
 
   return (
-    <div className="main-container container-fluid vh-100" style={{overflow: 'hidden', position: 'fixed'}}>
+    <div className="main-container no-pointers container-fluid vh-100" style={{overflow: 'hidden', position: 'fixed'}}>
         <div className="m-2 pt-2 pb-5 mobile-main-container">
         <div id='stars'></div>
          <div id='stars2'></div>
