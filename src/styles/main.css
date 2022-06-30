@@ -299,7 +299,7 @@ html {
   }
 
   .mobile-main-container {
-    height: 60%;
+    height: 64%;
     position: absolute;
     width: 100%;
     padding: 0;
@@ -322,7 +322,6 @@ html {
     display: block!important;
     pointer-events: all;
     z-index: 1000;
-    height: 40%;
   }
 
   .bottom-borders {
