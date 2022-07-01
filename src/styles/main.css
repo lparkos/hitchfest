@@ -328,9 +328,7 @@ html {
 }
 
 .navbar-expand-lg .navbar-collapse {
-  display: flex !important;
-  flex-basis: none!important;
-  justify-content: end;
+  justify-content: center;
 }
 
 .schedule {

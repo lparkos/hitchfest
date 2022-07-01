@@ -28,7 +28,7 @@
     }
     
     .lgreen {
-        color: var(--xanadu);
+        color: var(--xanadu)!important;
     }
 
     .sage {

@@ -57,7 +57,7 @@ const DetailNav = ({ pageTitle, children }) => {
   console.log(state.isHome);
 
   return (
-  <div className="d-sm-flex bg-lgreen justify-content-end">
+  <div className="d-sm-flex bg-lgreen">
   <Navbar expand="lg" fixed="top" className="bg-lgreen">
       <Navbar.Brand href="/" className="px-4 mx-3">
         <img
@@ -68,7 +68,7 @@ const DetailNav = ({ pageTitle, children }) => {
       <Navbar.Toggle className="mx-4" aria-controls="navbarScroll"><Hamburger size={30} color="#CEB27C" rounded/></Navbar.Toggle>
       <Navbar.Collapse id="navbarScroll" aria-expanded="false">
         <Nav
-          className="my-2 pb-xs-3 text-right bg-lgreen dgreen"
+          className="me-auto my-2 pb-xs-3 text-right bg-lgreen dgreen"
           navbarScroll
       >
           <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
