@@ -337,9 +337,9 @@ html {
 }
 
 .scrolling-image {
-  background: url('../images/elements/strip.png') repeat-x;
-  height: 750px;
-  width: 7680px;
+  background: url('../images/elements/newstrip.png') repeat-x;
+  height: 576px;
+  width: 5812px;
   animation: slide 30s linear infinite;
 }
 
@@ -348,7 +348,7 @@ html {
     transform: translate(0);
   }
   100% {
-    transform: translate(-3840px); /* The image width */
+    transform: translate(-3812px); /* The image width */
   }
 }
 
