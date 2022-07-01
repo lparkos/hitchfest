@@ -1,0 +1,134 @@
+@media only screen and (max-width: 950px) {
+    .left-col {
+      width: 100%;
+      position: relative;
+      height: auto;
+      display: block;
+    }
+
+    .home-nav {
+      display: block!important;
+      pointer-events: all;
+      z-index: 1000;
+    }
+  
+    .bottom-borders {
+      position: relative;
+    }
+  
+    .home .navbar-text a{
+      text-decoration: none;
+      color: var(--platinum);
+    }
+  
+    .home .navbar-text a:hover {
+      text-decoration: none;
+      color: var(--sage);
+    }
+
+    .superbig {
+      font-size: 12vw;
+      line-height: 9vh;
+    }
+  
+    .headliner-lm {
+      height: 40px;
+      background-color: var(--xanadu)!important;
+      z-index: 10000;
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    .custom-height {
+      height: 800px;
+      top: 100px;
+    }
+  
+    .top-50 {
+      top: 50% !important;
+    }
+  
+    .width-75 {
+      width: 100% !important;
+    }
+
+    .borders-bottom {
+        z-index: 10;
+        position: fixed;
+        bottom: 203px;
+    }
+
+    .schedule{ 
+        height: 55em;
+    }
+
+    .carousel-moving {
+        width: 100%;
+        height: 230px;
+        overflow:hidden;
+        margin-top: 40em;
+        filter: grayscale(1);
+      }
+
+    .scrolling-image {
+        background: url('../images/elements/strip.png') repeat-x;
+        height: 750px;
+        width: 7680px;
+        animation: slide 50s linear infinite;
+        background-size: 16%;
+      }
+      
+  
+
+    .home-page {
+      height: 100%;
+      overflow: hidden;
+      background: radial-gradient(ellipse at bottom, #05231aff 0%, #181818ff 100%);
+      position: relative;
+      top: -57px;
+    }
+
+.schedule-container {
+    margin-bottom: 20em!important;
+}
+
+.right-col {
+    margin-left: 0%;
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.schedule {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  
+    .navbar {
+      z-index: 100;
+      pointer-events: visible;
+    }
+  
+    .main-nav{
+      display: none;
+    }
+  
+  .navbar-light .navbar-toggler {
+    color: rgb(0 0 0 / 0%);
+    border-color: rgb(0 0 0 / 0%);
+    z-index: 1000;
+  }
+  
+  .navbar-collapse {
+    box-sizing: initial;
+    z-index: 1000;
+    box-shadow: -5px 10px 10px #00000047;
+  }
+  
+  
+  .navbar-nav {
+    padding: 1em 0em;
+  }
+  
+  }

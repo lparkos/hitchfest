@@ -2,18 +2,26 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import Carousel from 'react-bootstrap/Carousel';
 
+import pic1 from '../images/elements/carousel/1.png'
+import pic2 from '../images/elements/carousel/2.png'
+import pic3 from '../images/elements/carousel/3.png'
+import pic4 from '../images/elements/carousel/4.png'
+import pic5 from '../images/elements/carousel/5.png'
+import pic6 from '../images/elements/carousel/6.png'
+
+
 
 const CarouselGallery = () => {
   return (
     <Carousel variant="dark" touch="true" controls="false">
-        {/* <Carousel.Item>
+        <Carousel.Item>
         <img
             className="d-block w-100"
             src={pic1}
             alt="First slide"
         />
-        </Carousel.Item> */}
-        {/* <Carousel.Item>
+        </Carousel.Item>
+        <Carousel.Item>
         <img
             className="d-block w-100"
             src={pic2}
@@ -48,13 +56,13 @@ const CarouselGallery = () => {
             alt="First slide"
         />
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
         <img
             className="d-block w-100"
             src={pic7}
             alt="First slide"
         />
-        </Carousel.Item> */}
+        </Carousel.Item> */} */}
     </Carousel>
   )
 }

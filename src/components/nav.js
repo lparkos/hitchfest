@@ -57,7 +57,7 @@ const MainNav = ({ pageTitle, children }) => {
   console.log(state.isHome);
 
   return (
-  <div className="container-fluid position-relative">
+  <div className="container-fluid">
     <Navbar expand="lg" className="text-center white main-nav justify-content-center">
         <div>
           <Navbar.Toggle aria-controls="navbarScroll"><Hamburger size={30} color="#CEB27C" rounded/></Navbar.Toggle>

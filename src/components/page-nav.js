@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const PageNav = ({ anchor1, anchor2, anchor3, anchor4, anchor5, anchor6, anchor7, bgColor, image, children }) => {
 
   return (
-    <div className="page-nav mt-5"> 
+    <div className="page-nav mt-4"> 
         <div className="block pt-5">
             <div className="m1"><p className="superbig euphorigenic dgreen">{anchor1}</p></div>
         </div>

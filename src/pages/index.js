@@ -9,6 +9,8 @@ import MainNav from '../components/nav'
 import MenuBlock from '../components/menu-block'
 import CarouselGallery from '../components/carousel'
 import DiscoBall from '../components/discoball'
+import Schedule from '../components/schedule'
+
 
 
 
@@ -25,34 +27,40 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/colors.css'
 import '../styles/fonts.css'
 import '../styles/main.css'
+import '../styles/mobile.css'
 
 
 const Index = () => {
 
   return (
-    <div className="main-container no-pointers container-fluid vh-100" style={{overflow: 'hidden', position: 'fixed'}}>
-        <div className="mobile-main-container">
+    <div className="container-fluid">
+      {/* BORDERS TOP */}
+      <div className="container-fluid position-fixed d-flex my-2 borders-top">
+        <div className="left-border w-50">
+          <img className="width-60" src={cornerleft}></img>
+        </div>
+        <div className="right-border w-50 text-end">
+          <img className="width-60" src={cornerright}></img>
+        </div>
+      </div>
+      <div className="frame-top"></div>
+
+      {/* NAV */}
+      <div className="main-nav">
+        <MainNav></MainNav>
+      </div> 
+
+      {/* STARS */}
+      <div className="mobile-main-container">
         <span className="container-bg"></span>
         <div id='stars'></div>
-         <div id='stars2'></div>
-          <div id='stars3'></div>
-        <div class="container-fluid position-relative">
-        <div class="row align-items-start">
-            <div class="col left-border">
-            <img className="img-fluid" src={cornerleft}></img>
-            </div>
-            <div class="col text-center">
-            <MainNav></MainNav>
-            </div>
-            <div class="col right-border text-end">
-            <img className="img-fluid" src={cornerright}></img>
-            </div>
-        </div>
-        </div>
-        <div class="container-fluid position-absolute top-50 start-50 translate-middle">
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+      </div>
 
-        <div class="row align-items-start">
-
+      {/* HEADLINE */}
+      <div className="container-fluid headliner position-fixed">
+        <div clasName="position-absolute top-50 start-50 translate-middle">
             <Animate
             play={true} // set play true to start the animation
             duration={.5} // how long is the animation duration
@@ -61,8 +69,8 @@ const Index = () => {
             end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
             easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
             >
-            <div class="text-center">
-            <img className="img-fluid width-75 align-top" src={landm}></img>
+            <div className="text-center width-75 align-top">
+            <img className="img-fluid" src={landm}></img>
             </div>
             </Animate>
             <Animate
@@ -73,8 +81,8 @@ const Index = () => {
             end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
             easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
             >
-            <div class="text-center">
-            <img className="img-fluid width-60 pt-2 align-top" src={cosmicdate}></img>
+            <div className="text-center width-60 align-top">
+            <img className="img-fluid" src={cosmicdate}></img>
             </div>
             </Animate>
             <Animate
@@ -85,35 +93,27 @@ const Index = () => {
             end={{ opacity: '1', transform: 'translate(0px, 10px) scale(.9)' }}
             easeType="cubic-bezier(0.445, 0.05, 0.55, 0.95)"
             >
-            <div class="text-center">
-            <img className="img-fluid width-60 pt-2 align-top" src={mspmn}></img>
+            <div className="text-center width-60 align-top">
+            <img className="img-fluid" src={mspmn}></img>
             </div>
             </Animate>
         </div>
+      </div>
+
+      {/* CAROUSEL */} 
+      <div className="container-fluid headliner carousel-moving">
+        <div className="scrolling-image">
         </div>
-        <div class="container-fluid bottom-borders position-absolute bottom-0 start-50 translate-middle-x">
-        <div class="row align-items-start">
-            <div class="col left-border">
-            <img className="img-fluid width-60" src={cornerbleft}></img>
-            </div>
-            <div class="col right-border text-end"> 
-            <img className="img-fluid width-60" src={cornerbright}></img>
-            </div>
-        </div>
-        </div>
-    </div>
+        {/* <CarouselGallery></CarouselGallery> */}
+      </div>
+
+    {/* MOBILE NAV */} 
     <div className="fixed-bottom home-nav">
-      {/* <CarouselGallery></CarouselGallery> */}
       <MenuBlock
         text="Location"
         link="location"
         color="bg-lgreen"
       ></MenuBlock>
-      {/* <MenuBlock
-        text="Schedule"
-        link="shedule"
-        color="bg-lgreen"
-      ></MenuBlock> */}
       <MenuBlock
         text="Registry"
         link="registry"
@@ -124,6 +124,19 @@ const Index = () => {
         link="rsvp"
         color="bg-lgreen"
       ></MenuBlock>
+    </div>
+
+    {/* SCHEDULE */} 
+    <div className="container-fluid bg-teal position-absolute"><Schedule></Schedule></div>
+    
+    {/* BOTTOM BORDERS */} 
+    <div className="container-fluid position-fixed d-flex borders-bottom">
+      <div className="left-border w-50">
+        <img className="width-60" src={cornerbleft}></img>
+      </div>
+      <div className="right-border w-50 text-end"> 
+        <img className="width-60" src={cornerbright}></img>
+      </div>
     </div>
     </div>
   )
