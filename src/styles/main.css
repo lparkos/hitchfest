@@ -178,7 +178,7 @@ html {
 }
 
 .headliner {
-  margin-top: 30vh;
+  margin-top: 23vh;
 }
 
 .headliner-lm {
@@ -307,7 +307,7 @@ html {
 .borders-bottom {
   z-index: 10;
   position: fixed;
-  bottom: -40px;
+  bottom: -3vh;
 }
 
 .navbar-collapse .collapse {

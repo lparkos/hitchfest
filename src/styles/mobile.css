@@ -55,7 +55,7 @@
     .borders-bottom {
         z-index: 10;
         position: fixed;
-        bottom: 203px;
+        bottom: 25vh;
     }
 
     .schedule{ 
