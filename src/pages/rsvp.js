@@ -59,9 +59,9 @@ const Rsvp = () => {
                   <Form.Label>Who's RSVP'ing?</Form.Label>
                   <Form.Control type="text" placeholder="Hello my name is..." name="Name"/>
                   <Form.Label className="mt-4">Name of Guest(s)</Form.Label>
-                  <Form.Control type="text" placeholder="Who ya bringing?" name="Name"/>
+                  <Form.Control type="text" placeholder="Who ya bringing?" name="Guest"/>
                   <Form.Label className="mt-4">Anything else you'd like for us to know?</Form.Label>
-                  <Form.Control type="text" placeholder="Special dietary requests, accessible seating?" name="Name"/>
+                  <Form.Control type="text" placeholder="Special dietary requests, accessible seating?" name="Special"/>
                 </Form.Group>
                 <button type="submit" class="rsvp btn bg-yellow my-4" value="RSVP">RSVP</button>
               </Form>

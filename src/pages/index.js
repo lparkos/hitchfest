@@ -10,8 +10,7 @@ import MenuBlock from '../components/menu-block'
 import CarouselGallery from '../components/carousel'
 import DiscoBall from '../components/discoball'
 import Schedule from '../components/schedule'
-
-
+import Scroll from '../components/scroll'
 
 
 import cornerleft from '../images/elements/corner-left.svg'
@@ -98,6 +97,7 @@ const Index = () => {
             </div>
             </Animate>
         </div>
+        <Scroll></Scroll>
       </div>
 
       {/* CAROUSEL */} 

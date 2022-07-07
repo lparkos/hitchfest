@@ -29,6 +29,7 @@ const Index = () => {
 
   return (
     <div className="main-container container-fluid vh-100" style={{overflow: 'hidden', position: 'fixed'}}>
+        <MainNav></MainNav>
         <div className="m-2 pt-2 pb-5">
         <div id='stars'></div>
          <div id='stars2'></div>
@@ -39,7 +40,6 @@ const Index = () => {
             <img className="img-fluid" src={cornerleft}></img>
             </div>
             <div class="col text-center">
-            <MainNav></MainNav>
             </div>
             <div class="col right-border text-end">
             <img className="img-fluid" src={cornerright}></img>
@@ -66,28 +66,6 @@ const Index = () => {
             </div>
         </div>
         </div>
-    </div>
-    <div className="fixed-bottom home-nav">
-      <MenuBlock
-        text="Location"
-        link="location"
-        color="bg-lgreen"
-      ></MenuBlock>
-      {/* <MenuBlock
-        text="Schedule"
-        link="shedule"
-        color="bg-lgreen"
-      ></MenuBlock> */}
-      <MenuBlock
-        text="Registry"
-        link="registry"
-        color="bg-lgreen"
-      ></MenuBlock>
-      <MenuBlock
-        text="RSVP"
-        link="rsvp"
-        color="bg-lgreen"
-      ></MenuBlock>
     </div>
     </div>
   )
