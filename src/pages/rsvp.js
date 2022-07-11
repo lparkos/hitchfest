@@ -69,11 +69,11 @@ const Rsvp = () => {
           </div>
           </TextBlock>
 
-          <TextBlock 
+          {/* <TextBlock 
             anchor="link3"
-            title="FAQ"
-            contents="In case you have questions..."
-          ></TextBlock>
+            title="What is the dress code?"
+            contents="The dress code for our wedding will be “Semi-Formal”. This means wear something you feel awesome in! No jeans or sweats but the rest is up to you."
+          ></TextBlock> */}
 
           <TextBlock 
             anchor="link4"

@@ -19,10 +19,10 @@ import '../styles/main.css'
 const Schedule = () => {
   return (
 
-  <div className="container-fluid mb-4">
-    <div className="container mt-5 schedule schedule-container">
+  <div className="container-fluid mb-5">
+    <div className="container mt-5 schedule schedule-container pb-5">
       <div className="block pb-5 pt-2 text-center">
-          <div className="m1"><p className="superbig euphorigenic gold">Itinerary</p></div>
+          <div className="m1"><p className="superbig euphorigenic gold">Schedule</p></div>
       </div>
       <div className="row white mx-1">
         <div className="col-6 border-end border-light pb-3 text-end">
@@ -30,7 +30,7 @@ const Schedule = () => {
         </div>
         <div className="col-6 pb-3">
           <div className="m1 ps-4"><p className="h5 white">Ceremony</p></div>
-          <div className="m1 ps-4"><p className="p5 white">@El Jefe Courtyard</p></div>
+          <div className="m1 ps-4"><p className="p5 white">El Jefe Courtyard</p></div>
           <div className="m1 ps-4"><p className="p5 white">It could be chilly, bring a jacket!</p></div>
         </div>
 
@@ -38,35 +38,32 @@ const Schedule = () => {
           <div className="m1 pe-4"><p className="h3 white modesto">5:00PM</p></div>
         </div>
         <div className="col-6 pb-3">
-          <div className="m1 ps-4"><p className="h5 white">Let's Drink!</p></div>
-          <div className="m1 ps-4"><p className="p5 white">@El Jefe Courtyard</p></div>
+          <div className="m1 ps-4"><p className="h5 white">Cocktail Hour</p></div>
+          <div className="m1 ps-4"><p className="p5 white">Camelot Bar at the Hall of Kings</p></div>
         </div>
 
         <div className="col-6 border-end border-light text-end">
-          <div className="m1 pe-4"><p className="h3 white modesto">6:30PM</p></div>
+          <div className="m1 pe-4"><p className="h3 white modesto">6:00PM</p></div>
         </div>
         <div className="col-6 pb-3">
-          <div className="m1 ps-4"><p className="h5 white">Let's Eat!</p></div>
-          <div className="m1 ps-4"><p className="p5 white">@Hall of Kings</p></div>
-          <div className="m1 ps-4"><p className="p5 white">Downstairs of El Jefe Cucina, handicap accessible elevator located down hall.</p></div>
+          <div className="m1 ps-4"><p className="h5 white">Dinner & Toasts</p></div>
+          <div className="m1 ps-4"><p className="p5 white">Hall of Kings</p></div>
 
         </div>
 
         <div className="col-6 border-end border-light text-end">
-          <div className="m1 pe-4"><p className="h3 white modesto">8:00PM</p></div>
+          <div className="m1 pe-4"><p className="h3 white modesto">7:00pm</p></div>
         </div>
         <div className="col-6 pb-3">
-          <div className="m1 ps-4"><p className="h5 white">Let's Dance!</p></div>
-          <div className="m1 ps-4"><p className="p5 white">@Hall of Kings</p></div>
-          <div className="m1 ps-4"><p className="p5 white">Margaritas in October? Yes, sirrrr!</p></div>
+          <div className="m1 ps-4"><p className="h5 white">Dancing</p></div>
+          <div className="m1 ps-4"><p className="p5 white">Hall of Kings</p></div>
         </div>
 
         <div className="col-6 border-end border-light text-end">
-          <div className="m1 pe-4"><p className="h3 white modesto">10:00PM</p></div>
+          <div className="m1 pe-4"><p className="h3 white modesto">11:00PM</p></div>
         </div>
         <div className="col-6 mb-2">
-          <div className="m1 ps-4"><p className="h5 white">Snacks</p></div>
-          <div className="m1 ps-4 m5-b"><p className="p5 white">@Hall of Kings</p></div>
+          <div className="m1 ps-4"><p className="h5 white">Late Night Snacks</p></div>
         </div>
     </div>
   </div>
