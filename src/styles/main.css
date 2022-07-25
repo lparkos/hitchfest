@@ -96,7 +96,7 @@ a.euphorigenic {
   top: 0px; */
 }
 
-.container-bg {
+/* .container-bg {
   background-image: url(../images/coffin.svg);
   position: fixed;
   top: 0px;
@@ -104,9 +104,24 @@ a.euphorigenic {
   height: 100%;
   -webkit-filter: initial;
   filter: contrast(0.1) saturate(0) opacity(0.1) sepia(0.8);
-  background-size: 68%;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-position: center center;
+  animation: flicker 2s linear infinite;
+} */
+
+.container-bg {
+  background-image: url(../images/skull-bg-light.png);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: opacity(0.3) contrast(1.2);
+  filter: opacity(0.3) contrast(0.9) brightness(0.6);
+  background-size: 72%;
+  background-repeat: no-repeat;
+  background-position: center 36%;
+  -webkit-animation: flicker 2s linear infinite;
   animation: flicker 2s linear infinite;
 }
 
