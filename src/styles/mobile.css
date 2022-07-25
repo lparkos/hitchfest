@@ -138,10 +138,9 @@
     animation: flicker 2s linear infinite;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 134%;
+    background-size: auto;
     -webkit-filter: opacity(.3) contrast(1.2);
     filter: opacity(.3) contrast(.9) brightness(.6);
-    top: 0;
     width: 100%;
     }
   
