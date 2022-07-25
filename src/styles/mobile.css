@@ -136,7 +136,7 @@
   .container-bg {
     -webkit-animation: flicker 2s linear infinite;
     animation: flicker 2s linear infinite;
-    background-position: center bottom;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: 134%;
     -webkit-filter: opacity(.3) contrast(1.2);
