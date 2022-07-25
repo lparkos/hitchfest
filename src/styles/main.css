@@ -67,6 +67,10 @@ a.euphorigenic {
   padding-right: 0!important;
 }
 
+.top-zero {
+ top: 0px;
+}
+
 .frame-top{
     position: fixed;
     top: 0px;
@@ -193,7 +197,7 @@ html {
 }
 
 .headliner {
-  margin-top: 23vh;
+  margin-top: 20vh;
 }
 
 .headliner-lm {

@@ -34,7 +34,7 @@ const Index = () => {
   return (
     <div className="container-fluid">
       {/* BORDERS TOP */}
-      <div className="container-fluid position-fixed d-flex my-2 borders-top">
+      <div className="container-fluid d-flex my-2 borders-top position-fixed top-zero">
         <div className="left-border w-50">
           <img className="width-60" src={cornerleft}></img>
         </div>
@@ -50,14 +50,13 @@ const Index = () => {
       </div> 
 
       {/* STARS */}
-      <div className="mobile-main-container">
+      <div className="mobile-main-container position-fixed top-zero">
         <span className="container-bg"></span>
-        <div id='stars'></div>
-        <div id='stars2'></div>
-        <div id='stars3'></div>
-      </div>
+        <div id='stars' className="position-fixed"></div>
+        <div id='stars2' className="position-fixed"></div>
+        <div id='stars3' className="position-fixed"></div>
 
-      {/* HEADLINE */}
+        {/* HEADLINE */}
       <div className="container-fluid headliner position-fixed">
         <div clasName="position-absolute top-50 start-50 translate-middle">
             <Animate
@@ -99,6 +98,9 @@ const Index = () => {
         </div>
         <Scroll></Scroll>
       </div>
+      </div>
+
+      
 
       {/* CAROUSEL */} 
       <div className="container-fluid headliner carousel-moving">
