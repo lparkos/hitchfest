@@ -130,5 +130,17 @@
   .navbar-nav {
     padding: 1em 0em;
   }
+
+  .container-bg {
+    -webkit-animation: flicker 2s linear infinite;
+    animation: flicker 2s linear infinite;
+    background-position: center 190%;
+    background-repeat: no-repeat;
+    background-size: 134%;
+    -webkit-filter: opacity(.3) contrast(1.2);
+    filter: opacity(.3) contrast(.9) brightness(.6);
+    top: 0;
+    width: 100%;
+    }
   
   }
