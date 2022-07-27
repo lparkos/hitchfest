@@ -39,9 +39,9 @@ const Location = () => {
             anchor2="Ceremony & Reception"
             anchor3="Hotel Blocks"
             anchor4="Airport"
-            anchor5="Ground Transport"
+            anchor5="Transportation"
             anchor6="Parking"
-            anchor7="Ceremony Map"
+            anchor7="Venue Map"
           ></PageNav>
         </div>
        
@@ -77,22 +77,20 @@ const Location = () => {
           <TextBlock 
             anchor="link5"
             title="Transportation"
-            contents="Uber/Lyft are available from the airport to many metro area hotels and destinations. Alternatively you could take the Light Rail from the airport."
-            linktext="Book an Uber"
-            link="https://www.uber.com/us/en/ride/how-it-works/scheduled-rides/"
+            contents="There will be a shuttle service that will transport guests from The Renaissance Hotel to El Jefe Urban Hacienda. Shuttle service will begin at 3:30pm - 4:15pm and will provide transport back to the hotel starting at 9:30pm - midnight."
           ></TextBlock>
 
           <TextBlock 
             anchor="link6"
             title="Parking"
-            contents="Ramp parking is recommended because it’s convenient & inexpensive. Enter ramp off 2nd Street SE & 2nd Avenue SE."
+            contents="For Venue Parking: Ramp parking is recommended because it’s convenient to the location. Enter ramp off 2nd Street SE & 2nd Avenue SE."
             linktext="View Parking Map"
             link="https://jefeminneapolis.com/parking/"
           ></TextBlock>
 
           <TextBlock 
             anchor="link7"
-            title="Ceremony Map">
+            title="Venu Map">
             <div className="left p-2 mr1 text-center">
               <LoadScript googleMapsApiKey="AIzaSyAel-VNEYn0o3en1_dk0siQGLftQnBnXdo">
               <GoogleMap
