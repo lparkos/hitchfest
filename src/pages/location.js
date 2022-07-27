@@ -77,7 +77,7 @@ const Location = () => {
           <TextBlock 
             anchor="link5"
             title="Transportation"
-            contents="There will be a shuttle service that will transport guests from The Renaissance Hotel to El Jefe Urban Hacienda. Shuttle service will begin at 3:30pm - 4:15pm and will provide transport back to the hotel starting at 9:30pm - midnight."
+            contents="There will be a shuttle service that will transport guests from The Renaissance Hotel to El Jefe Urban Hacienda. Shuttle service will begin at 3:30pm - 4:15pm and will provide transport back to the hotel starting at 9:30pm - 12:30am."
           ></TextBlock>
 
           <TextBlock 
