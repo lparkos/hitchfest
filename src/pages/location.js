@@ -69,7 +69,7 @@ const Location = () => {
           <TextBlock 
             anchor="link4"
             title="Airport Information"
-            contents="If you are staying at a hotel nearby, you can tell your driver to drop you off at the front of the court yard, from there you can walk right in the court yard where the ceremony will be held."
+            contents="You'll fly into Minneapolis - St.Paul International Airport (MSP), which is located just 15 minutes outside of the Minneapolis/St.Paul."
             linktext="Directions: Airport to Venue"
             link="https://www.google.com/maps/dir/MSP+Terminal+1+Concourse+A-Lindbergh,+Saint+Paul,+MN/Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9235866,-93.312533,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x87f62934a4b9e935:0xd78fd85c55e5e8e8!2m2!1d-93.2006426!2d44.8803951!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
           ></TextBlock>
