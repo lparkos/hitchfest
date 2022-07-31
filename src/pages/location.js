@@ -63,7 +63,7 @@ const Location = () => {
             title="Hotel Blocks"
             contents="We've blocked off rooms at the Rennasaince Hotel, which is just 1 mile from the El Jefe. Address: 219 SE Main St, Minneapolis, MN 55414"
             linktext="Book Hotel"
-            link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
+            link="https://www.marriott.com/event-reservations/reservation-link.mi?id=1653064276380&key=GRP&app=resvlink"
           ></TextBlock>
          
           <TextBlock 
