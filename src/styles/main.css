@@ -4,6 +4,11 @@ body {
   background-color: var(--phthalo-green);
 }
 
+a {
+  color: var(--phthalo-green);
+  text-decoration-color:  var(--platinum);
+}
+
 
 @viewport {
   zoom: 0.75;
@@ -115,7 +120,7 @@ a.euphorigenic {
 } */
 
 .container-bg {
-  background-image: url(../images/coffin.svg);
+  background-image: url("../images/skull-bg-light.png");
   position: fixed;
   top: 0px;
   width: 100%;
@@ -125,9 +130,19 @@ a.euphorigenic {
   background-size: 72%;
   background-repeat: no-repeat;
   background-position: center 36%;
-  -webkit-animation: flicker 2s linear infinite;
-  animation: flicker 2s linear infinite;
 }
+
+/* .eljefbg {
+  background-image: url("../images/coffin.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    left: 0px;
+    filter: grayscale(1) saturate(5);
+    opacity: 0.1;
+} */
 
 .left-col {
   position: fixed;
@@ -205,8 +220,8 @@ html {
 }
 
 .superbig {
-  font-size: 5vw;
-  line-height: 12vh;
+  font-size: 7.6vw;
+  line-height: 13vh;
 }
 
 .fader-top {

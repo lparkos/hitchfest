@@ -83,7 +83,7 @@ const DetailNav = ({ pageTitle, children }) => {
           </motion.a> */}
           <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
               <Navbar.Text className="px-5 modesto dgreen">
-                <Link to="/registry">Registry</Link>
+                <Link className="dgreen" to="/registry">Registry</Link>
               </Navbar.Text>
           </motion.a>
           <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>

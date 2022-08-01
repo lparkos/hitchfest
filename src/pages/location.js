@@ -11,6 +11,7 @@ import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 import moons from '../images/elements/moonburst.svg';
 import star from '../images/elements/star.svg'
+import eljefe from '../images/eljefe.jpeg'
 
 
 const containerStyle = {
@@ -33,15 +34,17 @@ const Location = () => {
     <PageLayout pageTitle="Home Page">
 
     <div className="main-container">  
+        
         <div className="left-col bg-sage px-5"> 
+        {/* <div className="eljefbg"></div> */}
           <PageNav
             anchor1="Location Information"
             anchor2="Ceremony & Reception"
             anchor3="Hotel Blocks"
             anchor4="Airport"
-            anchor5="Transportation"
-            anchor6="Parking"
-            anchor7="Venue Map"
+            anchor5="Shuttle Service"
+            anchor6="Venue Parking"
+            anchor7="Venue Location"
           ></PageNav>
         </div>
        
@@ -53,7 +56,9 @@ const Location = () => {
             anchor="link2"
             title="Cermony & Reception"
             contents="Our wedding will be held at 
-            El Jefe Urban Hacienda on St. Anthony Main in Northeast Minneapolis. The ceremony will be held outside in the courtyard, and dinner and reception will follow downstairs at the Hall of Kings. Signs will be posted! Address: 219 SE Main St, Minneapolis, MN 55414"
+            El Jefe Urban Hacienda on St. Anthony Main in Northeast Minneapolis. The ceremony will be held outside (pending weather) in the courtyard, and dinner and reception will follow downstairs at the Hall of Kings. Signs will be posted! *Note, there are 2 El Jefe locations in Minneapolis. Please make sure you locate the one on SE Main St."
+            address="El Jefe Urban Hacienda / 219 SE Main St"
+            sublink="https://www.google.com/maps/dir/44.989495,-93.2556456/Jefe+Urban+Cocina+Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9867463,-93.2570433,17z/data=!3m1!4b1!4m15!1m6!3m5!1s0x52b32d7b981b3919:0x29285413f098a8e8!2sJefe+Urban+Cocina!8m2!3d44.9841318!4d-93.2540952!4m7!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318"
             linktext="Get Directions"
             link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
           ></TextBlock>
@@ -61,7 +66,9 @@ const Location = () => {
           <TextBlock 
             anchor="link3"
             title="Hotel Blocks"
-            contents="We've blocked off rooms at the Rennasaince Hotel, which is just 1 mile from the El Jefe. Address: 219 SE Main St, Minneapolis, MN 55414"
+            contents="We've blocked off rooms at The Renaissance Hotel, which is just 1 mile from the El Jefe. We've also arranged for a shuttle service if you book at this hotel!"
+            address="The Rennaisance Hotel / 225 3rd Ave S."
+            sublink="https://www.google.com/maps?q=the+renaissance+hotel+minneapolis&um=1&ie=UTF-8&sa=X&ved=2ahUKEwispbLe86X5AhXpBzQIHU70B9IQ_AUoAXoECAIQAw"
             linktext="Book Hotel"
             link="https://www.marriott.com/event-reservations/reservation-link.mi?id=1653064276380&key=GRP&app=resvlink"
           ></TextBlock>
@@ -76,21 +83,21 @@ const Location = () => {
 
           <TextBlock 
             anchor="link5"
-            title="Transportation"
+            title="Shuttle Service"
             contents="There will be a shuttle service that will transport guests from The Renaissance Hotel to El Jefe Urban Hacienda. Shuttle service will begin at 3:30pm - 4:15pm and will provide transport back to the hotel starting at 9:30pm - 12:30am."
           ></TextBlock>
 
           <TextBlock 
             anchor="link6"
-            title="Parking"
-            contents="For Venue Parking: Ramp parking is recommended because it’s convenient to the location. Enter ramp off 2nd Street SE & 2nd Avenue SE."
+            title="Venue Parking"
+            contents="El Jefe has a very convienient parking ramp attached to the building. Enter ramp off 2nd Street SE & 2nd Avenue SE."
             linktext="View Parking Map"
             link="https://jefeminneapolis.com/parking/"
           ></TextBlock>
 
           <TextBlock 
             anchor="link7"
-            title="Venu Map">
+            title="Venu Location">
             <div className="left p-2 mr1 text-center">
               <LoadScript googleMapsApiKey="AIzaSyAel-VNEYn0o3en1_dk0siQGLftQnBnXdo">
               <GoogleMap
