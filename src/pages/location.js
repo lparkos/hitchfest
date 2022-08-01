@@ -97,7 +97,7 @@ const Location = () => {
 
           <TextBlock 
             anchor="link7"
-            title="Venu Location">
+            title="Venue Location">
             <div className="left p-2 mr1 text-center">
               <LoadScript googleMapsApiKey="AIzaSyAel-VNEYn0o3en1_dk0siQGLftQnBnXdo">
               <GoogleMap
