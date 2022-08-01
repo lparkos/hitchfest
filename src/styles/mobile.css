@@ -91,7 +91,7 @@
     }
 
 .schedule-container {
-    margin-bottom: 3em!important;
+    margin-bottom: 10em!important;
 }
 
 .right-col {
@@ -134,7 +134,7 @@
   }
 
   .container-bg {
-    background-position: 50% 166%;
+    background-position: 50% -56px;
     background-repeat: no-repeat;
     background-size: 140%;
     -webkit-filter: opacity(.3) contrast(1.2);
