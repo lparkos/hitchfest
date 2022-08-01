@@ -49,7 +49,7 @@ const Rsvp = () => {
           <TextBlock 
             anchor="link2"
             title="Kindly Reply"
-            contents="We can’t wait to celebrate with ya! Kindly respond by August 1st."
+            contents="We can’t wait to celebrate with ya! Kindly respond by September 1st."
             >
 
           <div className="pt-2" id="#link2">
