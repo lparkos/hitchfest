@@ -12,33 +12,33 @@ const PageNav = ({ anchor1, anchor2, anchor3, anchor4, anchor5, anchor6, anchor7
         </div>
         <div className="block mt-5">
         {anchor2 ? 
-            <div className="border-bottom"><a href="#link2"><p className="fs-5 modesto dgreen">{anchor2}</p></a></div>
-            : <div><a href="#link2"><p className="fs-5 modesto dgreen">{anchor2}</p></a></div>}
+            <div className="border-bottom"><a href="#link2"><p className="fs-5 modesto dgreen lh-1 py-2">{anchor2}</p></a></div>
+            : <div><a href="#link2"><p className="fs-5 modesto dgreen lh-1">{anchor2}</p></a></div>}
         </div>
         <div className="block">
         {anchor3 ? 
-            <div className="border-bottom"><a href="#link3"><p className="fs-5 modesto dgreen">{anchor3}</p></a></div>
-            : <div><a href="#link4"><p className="fs-5 modesto dgreen">{anchor3}</p></a></div>}
+            <div className="border-bottom"><a href="#link3"><p className="fs-5 modesto dgreen lh-1 py-2">{anchor3}</p></a></div>
+            : <div><a href="#link4"><p className="fs-5 modesto dgreen lh-1">{anchor3}</p></a></div>}
         </div>
         <div className="block">
         {anchor4 ? 
-            <div className="border-bottom"><a href="#link4"><p className="fs-5 modesto dgreen">{anchor4}</p></a></div>
-            : <div><a href="#link5"><p className="fs-5 modesto dgreen">{anchor4}</p></a></div>}
+            <div className="border-bottom"><a href="#link4"><p className="fs-5 modesto dgreen lh-1 py-2">{anchor4}</p></a></div>
+            : <div><a href="#link5"><p className="fs-5 modesto dgreen lh-1">{anchor4}</p></a></div>}
         </div>
         <div className="block">
         {anchor5 ? 
-            <div className="border-bottom"><a href="#link5"><p className="fs-5 modesto dgreen">{anchor5}</p></a></div>
-            : <div><a href="#link5"><p className="fs-5 modesto dgreen">{anchor5}</p></a></div>}
+            <div className="border-bottom"><a href="#link5"><p className="fs-5 modesto dgreen lh-1 py-2">{anchor5}</p></a></div>
+            : <div><a href="#link5"><p className="fs-5 modesto dgreen lh-1">{anchor5}</p></a></div>}
         </div>
         <div className="block">
         {anchor6 ? 
-            <div className="border-bottom"><a href="#link6"><p className="fs-5 modesto dgreen">{anchor6}</p></a></div>
-            : <div><a href="#link6"><p className="fs-5 modesto dgreen">{anchor6}</p></a></div>}
+            <div className="border-bottom"><a href="#link6"><p className="fs-5 modesto dgreen lh-1 py-2">{anchor6}</p></a></div>
+            : <div><a href="#link6"><p className="fs-5 modesto dgreen lh-1">{anchor6}</p></a></div>}
         </div>
         <div className="block">
             {anchor7 ? 
-            <div className="border-bottom"><a href="#link7"><p className="fs-5 modesto dgreen">{anchor7}</p></a></div>
-            : <div><a href="#link7"><p className="fs-5 modesto dgreen">{anchor7}</p></a></div>}
+            <div className="border-bottom"><a href="#link7"><p className="fs-5 modesto dgreen lh-1 py-2">{anchor7}</p></a></div>
+            : <div><a href="#link7"><p className="fs-5 modesto dgreen lh-1">{anchor7}</p></a></div>}
         </div>
     </div>
   )
