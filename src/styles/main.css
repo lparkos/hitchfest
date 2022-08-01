@@ -354,7 +354,7 @@ html {
 
 .carousel-moving {
   width: 100%;
-  height: 500px;
+  height: 375px;
   overflow:hidden;
   margin-top: 55em;
   filter: grayscale(1);
@@ -372,7 +372,7 @@ html {
 
 .scrolling-image {
   background: url('../images/elements/newstrip.png') repeat-x;
-  height: 576px;
+  height: 375px;
   width: 5812px;
   animation: slide 30s linear infinite;
 }
