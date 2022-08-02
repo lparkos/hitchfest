@@ -59,6 +59,7 @@ const Rsvp = () => {
                   <Form.Label>Who's RSVP'ing?</Form.Label>
                   <Form.Control type="text" placeholder="Hello my name is..." name="Name"/>
                   <Form.Label className="mt-4">Name of Guest(s)</Form.Label>
+                  <p className="fs-6 sage">We politely request that only the people listed in the invitation be present due to capacity limits at our venue.</p>
                   <Form.Control type="text" placeholder="Who ya bringing?" name="Guest"/>
                   <Form.Label className="mt-4">Anything else you'd like for us to know?</Form.Label>
                   <Form.Control type="text" placeholder="Special dietary requests, accessible seating?" name="Special"/>
