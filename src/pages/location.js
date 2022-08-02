@@ -67,7 +67,7 @@ const Location = () => {
             anchor="link3"
             title="Hotel Blocks"
             contents="We've blocked off rooms at The Renaissance Hotel, which is just 1 mile from the El Jefe. We've also arranged for a shuttle service if you book at this hotel!"
-            address="The Rennaisance Hotel / 225 3rd Ave S."
+            address="The Renaissance Hotel / 225 3rd Ave S."
             sublink="https://www.google.com/maps?q=the+renaissance+hotel+minneapolis&um=1&ie=UTF-8&sa=X&ved=2ahUKEwispbLe86X5AhXpBzQIHU70B9IQ_AUoAXoECAIQAw"
             linktext="Book Hotel"
             link="https://www.marriott.com/event-reservations/reservation-link.mi?id=1653064276380&key=GRP&app=resvlink"
