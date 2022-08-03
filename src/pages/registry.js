@@ -27,8 +27,9 @@ const Registry = () => {
        <div className="left-col bg-sage px-5"> 
           <PageNav
             anchor1="Registry"
-            anchor2="Honeymoon Fund"
-            anchor3="Zola List"
+            anchor2="Zola List"
+            anchor3="Honeymoon - Credit Card"
+            anchor4="Honeymoon - Venmo"
           ></PageNav>
         </div>
        
@@ -53,7 +54,7 @@ const Registry = () => {
           ></TextBlock>
 
           <TextBlock 
-            anchor="link3"
+            anchor="link4"
             title="Honeymoon Fund / Venmo"
             contents="We're packing our bags right. now."
             linktext="Make a Contribution"
