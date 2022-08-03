@@ -46,10 +46,18 @@ const Registry = () => {
 
           <TextBlock 
             anchor="link3"
-            title="Honeymoon Fund"
+            title="Honeymoon Fund / Credit Card"
             contents="Winter is coming! Help us escape the MN cold!"
             linktext="Make a Contribution"
-            link="https://www.zola.com/registry/collection-item/62b9ca8cbe3ca301a6b94bbc"
+            link="https://www.zola.com/registry/collection-item/62ea7d122de154070801a842"
+          ></TextBlock>
+
+          <TextBlock 
+            anchor="link3"
+            title="Honeymoon Fund / Venmo"
+            contents="We're packing our bags right. now."
+            linktext="Make a Contribution"
+            link="https://www.zola.com/registry/collection-item/62ea7c20d62b3e693d8773ab"
           ></TextBlock>
          
         </div>

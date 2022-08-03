@@ -73,7 +73,9 @@ const Rsvp = () => {
                   <Form.Label className="mt-4">Anything else you'd like for us to know?</Form.Label>
                   <Form.Control type="text" placeholder="Special dietary requests, accessible seating?" name="Special"/>
                 </Form.Group>
-                <button type="submit" class="rsvp btn bg-yellow my-4" value="RSVP">RSVP</button>
+                <button onChange={getName} class="rsvp btn bg-yellow my-4">Am I on the list?</button>
+                <h2>Message: {name}</h2>
+                {/* <button type="submit" class="rsvp btn bg-yellow my-4" value="RSVP">RSVP</button> */}
               </Form>
               </div>
           </div>
