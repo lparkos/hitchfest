@@ -39,7 +39,7 @@ const Rsvp = () => {
           anchor4="Will the Ceremony be Outside?"
           anchor5="Are Children Allowed at the Ceremony?"
           anchor6="Can I Take Pictures at the Ceremony?"
-          anchor7="Is there wheelchair access?"
+          anchor7="Wheelchair access?"
         ></PageNav>
       </div>
 
@@ -66,7 +66,7 @@ const Rsvp = () => {
               <div className="mx-3 px-3 mb-4 text-center">
               <Form action="https://api.sheetmonkey.io/form/79YHxYU9GzVH3AuZPkAPNC" method="post">
                 <Form.Group className="mb-3" controlId="formGroupEmail">
-                  <Form.Label>Who's RSVP'ing?</Form.Label>
+                  <Form.Label>Who is RSVP'ing?</Form.Label>
                   <Form.Control type="text" placeholder="Hello my name is..." name="Name"/>
                   <Form.Label className="mt-4">Name of Guest</Form.Label>
                   <Form.Control type="text" placeholder="Who ya bringing?" name="Guest"/>
