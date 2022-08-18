@@ -31,19 +31,27 @@ const Schedule = () => {
         <div className="col-6 pb-3">
           <div className="m1 ps-4"><p className="h5 white modesto">Ceremony</p></div>
           <div className="m1 ps-4"><p className="p5 white">El Jefe Courtyard</p></div>
-          <div className="m1 ps-4"><p className="p5 white lh-1">It could be chilly, bring a jacket!</p></div>
+          <div className="m1 ps-4"><p className="p5 white lh-1">Doors open at 4:15pm</p></div>
         </div>
 
         <div className="col-6 border-end border-light pb-3 text-end">
           <div className="m1 pe-4"><p className="h3 white modesto">5:00PM</p></div>
         </div>
         <div className="col-6 pb-3">
-          <div className="m1 ps-4"><p className="h5 white modesto">Cocktail Hour</p></div>
+          <div className="m1 ps-4"><p className="h5 white modesto">Cocktails & Hors D'oeuvres</p></div>
           <div className="m1 ps-4"><p className="p5 white">Camelot Bar at the Hall of Kings</p></div>
         </div>
 
+        <div className="col-6 border-end border-light text-end">
+          <div className="m1 pe-4"><p className="h3 white modesto">6:00PM</p></div>
+        </div>
+        <div className="col-6 pb-3">
+          <div className="m1 ps-4"><p className="h5 white modesto">Dinner & Toasts</p></div>
+          <div className="m1 ps-4"><p className="p5 white">Hall of Kings</p></div>
+        </div>
+
         <div className="col-6 border-end border-light pb-3 text-end">
-          <div className="m1 pe-4"><p className="h3 white modesto">5:30PM</p></div>
+          <div className="m1 pe-4"><p className="h3 white modesto">7:30PM</p></div>
         </div>
         <div className="col-6 pb-3">
           <div className="m1 ps-4"><p className="h5 white modesto">Tarot Card Reader</p></div>
@@ -51,16 +59,7 @@ const Schedule = () => {
         </div>
 
         <div className="col-6 border-end border-light text-end">
-          <div className="m1 pe-4"><p className="h3 white modesto">6:30PM</p></div>
-        </div>
-        <div className="col-6 pb-3">
-          <div className="m1 ps-4"><p className="h5 white modesto">Dinner & Toasts</p></div>
-          <div className="m1 ps-4"><p className="p5 white">Hall of Kings</p></div>
-
-        </div>
-
-        <div className="col-6 border-end border-light text-end">
-          <div className="m1 pe-4"><p className="h3 white modesto">7:00pm</p></div>
+          <div className="m1 pe-4"><p className="h3 white modesto">8:00pm</p></div>
         </div>
         <div className="col-6 pb-3">
           <div className="m1 ps-4"><p className="h5 white modesto">Dancing</p></div>
@@ -68,7 +67,7 @@ const Schedule = () => {
         </div>
 
         <div className="col-6 border-end border-light text-end">
-          <div className="m1 pe-4"><p className="h3 white modesto">11:00PM</p></div>
+          <div className="m1 pe-4"><p className="h3 white modesto">10:00PM</p></div>
         </div>
         <div className="col-6 mb-2">
           <div className="m1 ps-4"><p className="h5 white modesto">Late Night Snacks</p></div>
