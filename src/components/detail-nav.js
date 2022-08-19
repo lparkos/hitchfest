@@ -91,6 +91,11 @@ const DetailNav = ({ pageTitle, children }) => {
                 <Link to="/rsvp">RSVP</Link>
               </Navbar.Text>
           </motion.a>
+          <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
+                  <Navbar.Text className="px-4 modesto white">
+                    <Link to="/favs">MSP Favorites</Link>
+                  </Navbar.Text>
+              </motion.a>
           </Nav>
       </Navbar.Collapse>
   </Navbar>

@@ -39,6 +39,9 @@ p {
     width: 100%;
 }
 
+.restora {
+  font-family: RestoraExtraLight, serif;
+}
 
 p.modesto {
   font-family: Modesto, serif;

@@ -160,7 +160,7 @@ a.euphorigenic {
 }
 
 .main-nav {
-  top: 25px;
+  top: 35px;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -221,7 +221,7 @@ html {
 
 .superbig {
   font-size: 7.6vw;
-  line-height: 13vh;
+  line-height: 10.7vh;
 }
 
 .fader-top {
