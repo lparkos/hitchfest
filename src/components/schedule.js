@@ -24,6 +24,29 @@ const Schedule = () => {
       <div className="block pb-5 pt-2 text-center">
           <div className="m1"><p className="superbig euphorigenic gold">Schedule</p></div>
       </div>
+
+      <div className="row white mx-1">
+        <div className="col-12 pb-3 text-center">
+        <div className="m1 pe-4"><p className="h1 white euphorigenic">Friday</p></div>
+        </div>
+      </div>
+
+      <div className="row white mx-1">
+        <div className="col-6 border-end border-light pb-3 text-end">
+          <div className="m1 pe-4"><p className="h3 white modesto">6:00PM</p></div>
+        </div>
+        <div className="col-6 pb-3">
+          <div className="m1 ps-4"><p className="h5 white modesto">Welcome Drinks</p></div>
+          <div className="m1 ps-4"><p className="p5 white">Location TBD (Minneapolis)</p></div>
+        </div>
+      </div>
+
+      <div className="row white my-4 pt-3">
+        <div className="col-12 pb-3 text-center">
+        <div className="m1 pe-4"><p className="h1 white euphorigenic">Saturday</p></div>
+        </div>
+      </div>
+
       <div className="row white mx-1">
         <div className="col-6 border-end border-light pb-3 text-end">
           <div className="m1 pe-4"><p className="h3 white modesto">4:30PM</p></div>
