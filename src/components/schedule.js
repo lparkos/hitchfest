@@ -27,7 +27,7 @@ const Schedule = () => {
 
       <div className="row white mx-1">
         <div className="col-12 pb-3 text-center">
-        <div className="m1 pe-4"><p className="h1 white euphorigenic">Friday / October 28th</p></div>
+        <div className="m1 pe-4"><p className="h1 white euphorigenic">Friday, October 28th</p></div>
         </div>
       </div>
 
@@ -43,7 +43,7 @@ const Schedule = () => {
 
       <div className="row white my-4 pt-3">
         <div className="col-12 pb-3 text-center">
-        <div className="m1 pe-4"><p className="h1 white euphorigenic">Friday / October 29th</p></div>
+        <div className="m1 pe-4"><p className="h1 white euphorigenic">Saturday, October 29th</p></div>
         </div>
       </div>
 
