@@ -182,6 +182,10 @@ html {
   scroll-padding-top: 200px; /* height of sticky header */
 }
 
+ol, ul {
+  padding-left: 0rem!important;
+}
+
 .vh-90{
   height: 90vh;
 }

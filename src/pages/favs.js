@@ -30,7 +30,7 @@ const Favs = () => {
             anchor2="Restaurants"
             anchor3="Bars"
             anchor4="Spaces"
-            anchor5="Shopping"
+            // anchor5="Shopping"
           >
           </PageNav>
         </div>
@@ -91,7 +91,7 @@ const Favs = () => {
                     <a className="fs-6 modesto white" href="https://www.psychosuzis.com/">https://www.psychosuzis.com/</a>
                 </li>
                 <li className="py-2">
-                    <p className="fs-5 restora sage">Karoeke Bar</p>
+                    <p className="fs-5 restora sage">Best Dive/Karoeke Bar: Vegas Lounge</p>
                     <a className="fs-6 modesto white" href="https://vegasloungene.com/">https://vegasloungene.com/</a>
                 </li>
                 <li className="py-2">
@@ -129,7 +129,7 @@ const Favs = () => {
             </ul>
           </TextBlock>
 
-          <TextBlock 
+          {/* <TextBlock 
             anchor="link5"
             title="Shopping"
           >
@@ -151,7 +151,7 @@ const Favs = () => {
                     <a className="fs-6 modesto white" href="https://mplswatertaxi.com/">https://mplswatertaxi.com/</a>
                 </li>
             </ul>
-            </TextBlock>
+            </TextBlock> */}
         </div>
     </div>
    
