@@ -117,6 +117,16 @@ const Index = () => {
         color="bg-lgreen"
       ></MenuBlock>
       <MenuBlock
+        text="RSVP"
+        link="rsvp"
+        color="bg-lgreen"
+      ></MenuBlock>
+       <MenuBlock
+        text="FAQ's"
+        link="faq"
+        color="bg-lgreen"
+      ></MenuBlock>
+      <MenuBlock
         text="Registry"
         link="registry"
         color="bg-lgreen"

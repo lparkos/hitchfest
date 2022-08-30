@@ -78,12 +78,17 @@ const MainNav = ({ pageTitle, children }) => {
               </motion.a> */}
               <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
                   <Navbar.Text className="px-4 modesto white">
-                    <Link to="/registry">Registry</Link>
+                    <Link to="/rsvp">RSVP</Link>
                   </Navbar.Text>
               </motion.a>
               <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
                   <Navbar.Text className="px-4 modesto white">
-                    <Link to="/rsvp">RSVP</Link>
+                    <Link to="/faq">FAQ's</Link>
+                  </Navbar.Text>
+              </motion.a>
+              <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
+                  <Navbar.Text className="px-4 modesto white">
+                    <Link to="/registry">Registry</Link>
                   </Navbar.Text>
               </motion.a>
               <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>

@@ -72,27 +72,32 @@ const DetailNav = ({ pageTitle, children }) => {
           navbarScroll
       >
           <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-              <Navbar.Text className="px-5 modesto dgreen">
+              <Navbar.Text className="px-4 modesto dgreen">
                 <Link to="/location">Location</Link>
               </Navbar.Text>
           </motion.a>
           {/* <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-              <Navbar.Text className="px-5 modesto dgreen">
+              <Navbar.Text className="px-4 modesto dgreen">
                 <Link to="/schedule">Schedule</Link>
               </Navbar.Text>
           </motion.a> */}
           <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-              <Navbar.Text className="px-5 modesto dgreen">
-                <Link className="dgreen" to="/registry">Registry</Link>
-              </Navbar.Text>
-          </motion.a>
-          <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-              <Navbar.Text className="px-5 modesto dgreen">
+              <Navbar.Text className="px-4 modesto dgreen">
                 <Link to="/rsvp">RSVP</Link>
               </Navbar.Text>
           </motion.a>
           <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
-                  <Navbar.Text className="px-5 modesto dgreen">
+              <Navbar.Text className="px-4 modesto dgreen">
+                <Link to="/faq">FAQ's</Link>
+              </Navbar.Text>
+          </motion.a>
+          <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
+              <Navbar.Text className="px-4 modesto dgreen">
+                <Link className="dgreen" to="/registry">Registry</Link>
+              </Navbar.Text>
+          </motion.a>
+          <motion.a whileHover={{ scale: 1.05, opacity: 1 }}>
+                  <Navbar.Text className="px-4 modesto dgreen">
                     <Link to="/favs">MSP Favorites</Link>
                   </Navbar.Text>
               </motion.a>
