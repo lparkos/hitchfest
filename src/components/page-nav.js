@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { motion } from "framer-motion";
 
 
-const PageNav = ({ anchor1, anchor2, anchor3, anchor4, anchor5, anchor6, anchor7, bgColor, image, children }) => {
+const PageNav = ({ anchor1, anchor2, anchor3, anchor4, anchor5, anchor6, anchor7, anchor8, bgColor, image, children }) => {
 
   return (
     <div className="page-nav mt-4"> 
@@ -39,6 +39,11 @@ const PageNav = ({ anchor1, anchor2, anchor3, anchor4, anchor5, anchor6, anchor7
             {anchor7 ? 
             <div className="border-bottom"><a href="#link7"><p className="fs-5 modesto dgreen lh-1 py-2">{anchor7}</p></a></div>
             : <div><a href="#link7"><p className="fs-5 modesto dgreen lh-1">{anchor7}</p></a></div>}
+        </div>
+        <div className="block">
+            {anchor8 ? 
+            <div className="border-bottom"><a href="#link8"><p className="fs-5 modesto dgreen lh-1 py-2">{anchor8}</p></a></div>
+            : <div><a href="#link8"><p className="fs-5 modesto dgreen lh-1">{anchor8}</p></a></div>}
         </div>
     </div>
   )

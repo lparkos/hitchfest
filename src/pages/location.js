@@ -40,11 +40,12 @@ const Location = () => {
           <PageNav
             anchor1="Location Information"
             anchor2="Ceremony & Reception"
-            anchor3="Hotel Blocks"
-            anchor4="Airport"
-            anchor5="Shuttle Service"
-            anchor6="Venue Parking"
-            anchor7="Venue Location"
+            anchor3="Welcome Celebration"
+            anchor4="Hotel Blocks"
+            anchor5="Airport"
+            anchor6="Shuttle Service"
+            anchor7="Venue Parking"
+            anchor8="Venue Location"
           ></PageNav>
         </div>
        
@@ -65,6 +66,17 @@ const Location = () => {
 
           <TextBlock 
             anchor="link3"
+            title="Welcome Celebration"
+            contents="Come out for an early celebration to say hello to the bride and groom! Enjoy craft beer, seltzers and sliders before our big day!"
+            address="Fulton Brewery / 414 N 6th Ave, Minneapolis, MN 55401"
+            sublink="https://www.google.com/maps?q=fulton+brewery+minneapolis&um=1&ie=UTF-8&sa=X&ved=2ahUKEwiY7eud3fP5AhV6AzQIHSFsCN0Q_AUoAnoECAIQBA"
+            linktext="Get Directions"
+            link="https://www.google.com/maps/dir//fulton+brewery+minneapolis/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x52b3328c659013c5:0x797e20836229c8d5?sa=X&ved=2ahUKEwiz7dy23PP5AhW0rYkEHWSvDQ0Q9Rd6BAhkEAU"
+          ></TextBlock>
+
+
+          <TextBlock 
+            anchor="link4"
             title="Hotel Blocks"
             contents="We've blocked off rooms at The Renaissance Hotel, which is just 1 mile from the El Jefe. We've also arranged for a shuttle service if you book at this hotel!"
             address="The Renaissance Hotel / 225 3rd Ave S."
@@ -74,7 +86,7 @@ const Location = () => {
           ></TextBlock>
          
           <TextBlock 
-            anchor="link4"
+            anchor="link5"
             title="Airport Information"
             contents="You'll fly into Minneapolis - St.Paul International Airport (MSP), which is located just 15 minutes outside of the Minneapolis/St.Paul."
             linktext="Directions: Airport to Venue"
@@ -82,13 +94,13 @@ const Location = () => {
           ></TextBlock>
 
           <TextBlock 
-            anchor="link5"
+            anchor="link6"
             title="Shuttle Service"
             contents="There will be a shuttle service that will transport guests from The Renaissance Hotel to El Jefe Urban Hacienda. Shuttle service will begin at 3:30pm - 4:15pm and will provide transport back to the hotel starting at 9:30pm - 12:30am."
           ></TextBlock>
 
           <TextBlock 
-            anchor="link6"
+            anchor="link7"
             title="Venue Parking"
             contents="El Jefe has a very convienient parking ramp attached to the building. Enter ramp off 2nd Street SE & 2nd Avenue SE."
             linktext="View Parking Map"
@@ -96,7 +108,7 @@ const Location = () => {
           ></TextBlock>
 
           <TextBlock 
-            anchor="link7"
+            anchor="link8"
             title="Venue Location">
             <div className="left p-2 mr1 text-center">
               <LoadScript googleMapsApiKey="AIzaSyAel-VNEYn0o3en1_dk0siQGLftQnBnXdo">
