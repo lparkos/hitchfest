@@ -37,7 +37,8 @@ const Schedule = () => {
         </div>
         <div className="col-6 pb-3">
           <div className="m1 ps-4"><p className="h5 white modesto">Welcome Drinks</p></div>
-          <div className="m1 ps-4"><p className="p5 white">Location TBD (Minneapolis)</p></div>
+          <div className="m1 ps-4"><p className="p5 white">Fulton Brewery / Garagery Room</p></div>
+          <div className="m1 ps-4"><p className="p5 white">Beer, Seltzers, Sliders</p></div>
         </div>
       </div>
 
