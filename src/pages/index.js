@@ -131,11 +131,6 @@ const Index = () => {
         link="registry"
         color="bg-lgreen"
       ></MenuBlock>
-      <MenuBlock
-        text="RSVP"
-        link="rsvp"
-        color="bg-lgreen"
-      ></MenuBlock>
     </div>
 
     {/* SCHEDULE */} 
