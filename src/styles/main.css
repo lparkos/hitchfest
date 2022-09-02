@@ -314,6 +314,23 @@ ol, ul {
   margin: 0 auto;
 }
 
+.form-check-input:focus {
+  border-color: #ceb37c;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(206 179 124 / 30%);
+}
+
+.form-check-input:checked {
+  background-color: #ceb37c;
+  border-color: #ceb37c;
+}
+
+.form-check-input[type=checkbox] {
+  border-radius: 0.25em;
+  width: 2em;
+  height: 2em;
+}
+
 .width-60 {
   width: 60%;
   margin: 0 auto;

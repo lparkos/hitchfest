@@ -46,6 +46,12 @@ const Rsvp = () => {
                 <Form.Group className="mb-3" controlId="formGroupEmail">
                   <Form.Label>Who is RSVP'ing?</Form.Label>
                   <Form.Control type="text" placeholder="Hello my name is..." name="Name"/>
+                  <div className="row justify-content-center">
+                    <div className="col-6 text-center">
+                      <Form.Check className="mt-4 text-start" type="radio" name="Attending" value="Yes!" label="Yes! Can't wait to bust a move on the dance floor!" />
+                      <Form.Check className="mt-4 text-start" type="radio" name="Attending" value="No" label="No, you'll have to bust a move without me/us." />
+                    </div>
+                  </div>
                   <Form.Label className="mt-4">Name of Guest</Form.Label>
                   <Form.Control type="text" placeholder="Who ya bringing?" name="Guest"/>
                   <Form.Label className="mt-4">Anything else you'd like for us to know?</Form.Label>
