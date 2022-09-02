@@ -49,8 +49,8 @@ const Index = () => {
         <div class="container-fluid position-absolute top-50 start-50 translate-middle">
         <div class="row align-items-start">
          <TextBlock 
-            title="We'll see you soon!"
-            contents="Yay! We're really excited to share this day with you!"
+            title="Thank you for your response!"
+            contents="If you responded yes, we're really excited to share this day with you, and we'll see you soon! Otherwise, we'll miss you ❤️"
           ></TextBlock>
         </div>
         </div>
