@@ -33,7 +33,7 @@ const Schedule = () => {
 
       <div className="row white mx-1">
         <div className="col-6 border-end border-light pb-3 text-end">
-          <div className="m1 pe-4"><p className="h3 white modesto">6:00PM</p></div>
+          <div className="m1 pe-4"><p className="h3 white modesto">6:30PM</p></div>
         </div>
         <div className="col-6 pb-3">
           <div className="m1 ps-4"><p className="h5 white modesto">Welcome Drinks</p></div>
