@@ -59,7 +59,7 @@ const Location = () => {
             contents="Our wedding will be held at 
             El Jefe Urban Hacienda on St. Anthony Main in Northeast Minneapolis. The ceremony will be held outside (pending weather) in the courtyard, and dinner and reception will follow downstairs at the Hall of Kings. Signs will be posted! *Note, there are 2 El Jefe locations in Minneapolis. Please make sure you locate the one on SE Main St."
             address="El Jefe Urban Hacienda / 219 SE Main St"
-            sublink="https://www.google.com/maps/dir/44.989495,-93.2556456/Jefe+Urban+Cocina+Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9867463,-93.2570433,17z/data=!3m1!4b1!4m15!1m6!3m5!1s0x52b32d7b981b3919:0x29285413f098a8e8!2sJefe+Urban+Cocina!8m2!3d44.9841318!4d-93.2540952!4m7!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318"
+            sublink="https://www.google.com/maps/place/Jefe+Urban+Cocina/@44.9841318,-93.2562839,17z/data=!3m1!4b1!4m5!3m4!1s0x52b32d7b981b3919:0x29285413f098a8e8!8m2!3d44.9841318!4d-93.2540952"
             linktext="Get Directions"
             link="https://www.google.com/maps/dir//Jefe+Urban+Cocina,+219+SE+Main+St,+Minneapolis,+MN+55414/@44.9841318,-93.2562839,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x52b32d7b981b3919:0x29285413f098a8e8!2m2!1d-93.2540952!2d44.9841318!3e0"
           ></TextBlock>
